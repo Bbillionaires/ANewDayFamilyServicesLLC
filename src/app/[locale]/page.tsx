@@ -1,25 +1,43 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
-import { coreValues, faqs, services, siteConfig } from "@/lib/siteConfig";
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
+import { routing } from "@/i18n/routing";
+import { siteConfig } from "@/lib/siteConfig";
 import { faqJsonLd } from "@/lib/structuredData";
 import StatCounter from "@/components/StatCounter";
 
-export const metadata: Metadata = {
-  title: "Supervised Visitation & Monitored Exchanges in Northeast Florida",
-  description:
-    "A New Day Family Services LLC provides safe, neutral supervised visitation and monitored child exchanges for Northeast Florida families connected to the courts, DCF, and private custody cases.",
-  alternates: { canonical: "/" },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "HomePage" });
+  return {
+    title: t("metaTitle"),
+    description: t("metaDescription"),
+    alternates: { canonical: locale === routing.defaultLocale ? "/" : `/${locale}` },
+  };
+}
 
-const trustSignals = [
-  "Professional Medicaid Provider",
-  "10+ years in the mental health field",
-  "Neutral toward every parent, caregiver & agency",
-  "Trauma-informed & culturally sensitive care",
-];
+export default async function HomePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations("HomePage");
+  const tValues = await getTranslations("CoreValues");
+  const tServices = await getTranslations("ServicesData");
+  const tFaqs = await getTranslations("Faqs");
 
-export default function HomePage() {
+  const trustSignals = t.raw("trustSignals") as string[];
+  const coreValues = tValues.raw("items") as { name: string; description: string }[];
+  const services = tServices.raw("items") as { slug: string; name: string; summary: string }[];
+  const faqs = tFaqs.raw("items") as { question: string; answer: string }[];
+
   return (
     <>
       <section className="relative flex min-h-[480px] items-center overflow-hidden text-white sm:min-h-[560px] lg:min-h-[640px]">
@@ -34,22 +52,21 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-br from-harbor-950/85 via-dawn-700/70 to-dawn-500/50" />
         <div className="container-page relative z-10 grid gap-10 py-20 lg:grid-cols-2 lg:items-center lg:py-28">
           <div>
-            <p className="section-label text-white/80">Supervised Visitation · {siteConfig.serviceArea}</p>
+            <p className="section-label text-white/80">
+              {t("heroLabel", { serviceArea: siteConfig.serviceArea })}
+            </p>
             <h1 className="mt-4 font-display text-4xl font-bold leading-tight sm:text-5xl">
-              A safe, neutral new day for every family.
+              {t("heroTitle")}
             </h1>
             <p className="mt-6 max-w-xl text-lg text-white/90">
-              {siteConfig.name} provides safe, structured supervised visitation and monitored
-              child exchanges for families engaged with the courts, DCF, and private custody
-              cases across {siteConfig.serviceArea} — remaining neutral and unbiased toward every
-              parent, caregiver, and agency involved.
+              {t("heroDescription", { name: siteConfig.name, serviceArea: siteConfig.serviceArea })}
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link href="/services" className="btn-secondary bg-white text-harbor-900 hover:bg-harbor-50">
-                Explore Our Services
+                {t("exploreServices")}
               </Link>
               <Link href="/donate" className="btn-primary bg-harbor-950 hover:bg-harbor-900">
-                Sponsor a Family
+                {t("sponsorFamily")}
               </Link>
             </div>
           </div>
@@ -71,39 +88,34 @@ export default function HomePage() {
               <p className="font-display text-4xl font-bold text-dawn-300 sm:text-5xl">
                 <StatCounter target={27251} suffix="+" />
               </p>
-              <p className="mt-2 text-sm text-harbor-200">
-                Children served in Florida&apos;s out-of-home care system in FY 2023–24 — many
-                needing safe, supervised time with a parent or caregiver
-              </p>
+              <p className="mt-2 text-sm text-harbor-200">{t("statChildrenLabel")}</p>
             </div>
             <div>
               <p className="font-display text-4xl font-bold text-dawn-300 sm:text-5xl">
                 <StatCounter target={siteConfig.serviceAreaCounties.length} />
               </p>
               <p className="mt-2 text-sm text-harbor-200">
-                Counties served across {siteConfig.serviceArea}
+                {t("statCountiesLabel", { serviceArea: siteConfig.serviceArea })}
               </p>
             </div>
             <div>
               <p className="font-display text-4xl font-bold text-dawn-300 sm:text-5xl">
                 <StatCounter target={10} suffix="+" />
               </p>
-              <p className="mt-2 text-sm text-harbor-200">
-                Years of trauma-informed mental health experience
-              </p>
+              <p className="mt-2 text-sm text-harbor-200">{t("statYearsLabel")}</p>
             </div>
           </div>
           <p className="mt-8 text-center text-xs text-harbor-400">
-            Statewide figure source:{" "}
+            {t("statSourcePrefix")}{" "}
             <a
               href="https://www.myflfamilies.com/ocfw-dashboard"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-dawn-300"
             >
-              Florida Department of Children and Families
+              {t("statSourceName")}
             </a>
-            . Reflects the scale of need statewide, not a live count of {siteConfig.name} cases.
+            . {t("statSourceDisclaimer", { name: siteConfig.name })}
           </p>
         </div>
       </section>
@@ -111,20 +123,12 @@ export default function HomePage() {
       <section className="container-page py-16 sm:py-24">
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center lg:gap-16">
           <div>
-            <p className="section-label">Our Mission</p>
+            <p className="section-label">{t("missionLabel")}</p>
             <h2 className="mt-2 font-display text-3xl font-bold text-harbor-900 sm:text-4xl">
-              Protecting children. Supporting healthy parent-child relationships.
+              {t("missionTitle")}
             </h2>
             <p className="mt-6 text-lg text-harbor-700">
-              At {siteConfig.name}, our mission is to provide safe, structured supervised
-              visitation services across {siteConfig.serviceArea} that remain neutral and
-              unbiased toward any parent, caregiver, or agency involved. We serve families
-              engaged with the courts, DCF, and private custody cases, ensuring a conflict-free
-              environment that protects children and supports healthy parent-child relationships.
-              As a professional Medicaid Provider with over 10 years of experience in the mental
-              health field, we advocate for families in need by combining trauma-informed care,
-              cultural sensitivity, and community partnerships to help them build stability,
-              resilience, and a new day of hope together.
+              {t("missionBody", { name: siteConfig.name, serviceArea: siteConfig.serviceArea })}
             </p>
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-xl">
@@ -141,9 +145,9 @@ export default function HomePage() {
 
       <section className="bg-harbor-50 py-16 sm:py-24">
         <div className="container-page">
-          <p className="section-label">What We Offer</p>
+          <p className="section-label">{t("offerLabel")}</p>
           <h2 className="mt-2 font-display text-3xl font-bold text-harbor-900 sm:text-4xl">
-            Services built around safety and neutrality
+            {t("offerTitle")}
           </h2>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {services.map((service) => (
@@ -154,15 +158,15 @@ export default function HomePage() {
             ))}
           </div>
           <Link href="/services" className="mt-8 inline-block text-sm font-semibold text-dawn-600 hover:text-dawn-700">
-            See full service details →
+            {t("seeFullServices")}
           </Link>
         </div>
       </section>
 
       <section className="container-page py-16 sm:py-24">
-        <p className="section-label">Core Values</p>
+        <p className="section-label">{tValues("sectionLabel")}</p>
         <h2 className="mt-2 font-display text-3xl font-bold text-harbor-900 sm:text-4xl">
-          The principles behind every visit
+          {t("valuesTitle")}
         </h2>
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {coreValues.map((value) => (
@@ -179,9 +183,9 @@ export default function HomePage() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd()) }}
         />
-        <p className="section-label">Frequently Asked Questions</p>
+        <p className="section-label">{tFaqs("sectionLabel")}</p>
         <h2 className="mt-2 font-display text-3xl font-bold text-harbor-900 sm:text-4xl">
-          What families ask us
+          {tFaqs("title")}
         </h2>
         <div className="mt-10 grid gap-6 sm:grid-cols-2">
           {faqs.map((faq) => (
@@ -195,19 +199,14 @@ export default function HomePage() {
 
       <section className="bg-harbor-950 py-16 text-white sm:py-24">
         <div className="container-page text-center">
-          <h2 className="font-display text-3xl font-bold sm:text-4xl">
-            Ready for a new day of hope and connection?
-          </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-harbor-200">
-            Whether you have a court order, a DCF referral, or a private arrangement, we're here
-            to help your family find stability, one visit at a time.
-          </p>
+          <h2 className="font-display text-3xl font-bold sm:text-4xl">{t("ctaTitle")}</h2>
+          <p className="mx-auto mt-4 max-w-2xl text-harbor-200">{t("ctaBody")}</p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Link href="/services" className="btn-primary">
-              Get Started
+              {t("getStarted")}
             </Link>
             <Link href="/community-resources" className="btn-secondary bg-transparent text-white hover:bg-white/10">
-              Browse Community Resources
+              {t("browseResources")}
             </Link>
           </div>
         </div>

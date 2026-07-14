@@ -26,6 +26,21 @@ and Baker counties).
   "Medicaid-approved supervised visitation" are woven into headings, metadata, and FAQ copy for
   both traditional SEO and AI answer engines (AEO).
 
+## Languages
+
+The site is available in English (default, no URL prefix), Spanish (`/es`), and Filipino/Tagalog
+(`/tl`), switchable at any time via the globe button in the navbar — powered by
+[next-intl](https://next-intl.dev). All translations live in `messages/{en,es,tl}.json` and are
+machine-translated by Claude; the JSON structure is identical across all three files (verified by
+key-parity check before shipping). Given this site touches DCF/court-adjacent content, **have a
+native Spanish and Tagalog/Filipino speaker review `messages/es.json` and `messages/tl.json`
+before relying on them for legal or safety-critical guidance** — translation only happens when a
+visitor explicitly picks a language, so English remains the default and no auto-detection or
+auto-translation occurs. The AI chat assistant also replies in whichever language is active.
+
+To add a new page, add its keys to all three message files (`node` can diff key sets — see the
+validation snippet in git history) and add the locale to `src/i18n/routing.ts`.
+
 ## AI assistant
 
 A floating "Ask Us Anything" chat widget (`src/components/ChatWidget.tsx`) calls `/api/chat`

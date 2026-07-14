@@ -1,19 +1,22 @@
 "use client";
 
-import Link from "next/link";
+import { useTranslations } from "next-intl";
 import { useState } from "react";
+import { Link } from "@/i18n/navigation";
 import { siteConfig } from "@/lib/siteConfig";
-
-const links = [
-  { href: "/", label: "Home" },
-  { href: "/services", label: "Services" },
-  { href: "/about", label: "About Us" },
-  { href: "/community-resources", label: "Community Resources" },
-  { href: "/donate", label: "Donate" },
-];
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Navbar() {
+  const t = useTranslations("Nav");
   const [open, setOpen] = useState(false);
+
+  const links = [
+    { href: "/", label: t("home") },
+    { href: "/services", label: t("services") },
+    { href: "/about", label: t("about") },
+    { href: "/community-resources", label: t("communityResources") },
+    { href: "/donate", label: t("donate") },
+  ];
 
   return (
     <header className="sticky top-0 z-40 border-b border-harbor-100 bg-white/90 backdrop-blur">
@@ -35,21 +38,25 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
+          <LanguageSwitcher />
           <Link href="/donate" className="btn-primary">
-            Donate
+            {t("donate")}
           </Link>
         </div>
 
-        <button
-          type="button"
-          className="flex h-10 w-10 items-center justify-center rounded-full border border-harbor-200 md:hidden"
-          aria-label={open ? "Close menu" : "Open menu"}
-          aria-expanded={open}
-          onClick={() => setOpen((v) => !v)}
-        >
-          <span className="sr-only">Toggle navigation</span>
-          {open ? "✕" : "☰"}
-        </button>
+        <div className="flex items-center gap-2 md:hidden">
+          <LanguageSwitcher />
+          <button
+            type="button"
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-harbor-200"
+            aria-label={open ? t("closeMenu") : t("openMenu")}
+            aria-expanded={open}
+            onClick={() => setOpen((v) => !v)}
+          >
+            <span className="sr-only">{open ? t("closeMenu") : t("openMenu")}</span>
+            {open ? "✕" : "☰"}
+          </button>
+        </div>
       </nav>
 
       {open && (

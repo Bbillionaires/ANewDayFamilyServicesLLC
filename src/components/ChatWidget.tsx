@@ -1,24 +1,17 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { useRef, useState } from "react";
 
 type Message = { role: "user" | "assistant"; content: string };
 
-const STARTER_PROMPTS = [
-  "What is supervised visitation?",
-  "What areas do you serve?",
-  "How do I get started?",
-  "How does the sponsorship fund work?",
-];
+export default function ChatWidget({ locale }: { locale: string }) {
+  const t = useTranslations("Chat");
+  const starterPrompts = t.raw("starterPrompts") as string[];
 
-export default function ChatWidget() {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
-    {
-      role: "assistant",
-      content:
-        "Hi, I'm the A New Day Family Services assistant. Ask me about supervised visitation, monitored exchanges, our service area, or how to get started.",
-    },
+    { role: "assistant", content: t("greeting") },
   ]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -35,19 +28,12 @@ export default function ChatWidget() {
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ messages: next }),
+        body: JSON.stringify({ messages: next, locale }),
       });
       const data = await res.json();
       setMessages([...next, { role: "assistant", content: data.reply }]);
     } catch {
-      setMessages([
-        ...next,
-        {
-          role: "assistant",
-          content:
-            "I'm having trouble connecting right now. Please try again shortly, or reach out using the contact information in the footer.",
-        },
-      ]);
+      setMessages([...next, { role: "assistant", content: t("connectionError") }]);
     } finally {
       setLoading(false);
       requestAnimationFrame(() => {
@@ -62,12 +48,12 @@ export default function ChatWidget() {
         <div className="mb-3 flex h-[28rem] w-[22rem] flex-col overflow-hidden rounded-2xl border border-harbor-200 bg-white shadow-2xl">
           <div className="flex items-center justify-between bg-sunrise px-4 py-3 text-white">
             <div>
-              <p className="text-sm font-semibold">Ask Us Anything</p>
-              <p className="text-xs text-white/80">A New Day Family Services</p>
+              <p className="text-sm font-semibold">{t("title")}</p>
+              <p className="text-xs text-white/80">{t("subtitle")}</p>
             </div>
             <button
               type="button"
-              aria-label="Close chat"
+              aria-label={t("closeLabel")}
               onClick={() => setOpen(false)}
               className="rounded-full bg-white/20 px-2 py-1 text-xs"
             >
@@ -90,12 +76,12 @@ export default function ChatWidget() {
             ))}
             {loading && (
               <div className="mr-auto max-w-[85%] rounded-2xl rounded-bl-sm bg-harbor-50 px-3 py-2 text-harbor-400">
-                Typing…
+                {t("typing")}
               </div>
             )}
             {messages.length === 1 && (
               <div className="flex flex-wrap gap-2 pt-2">
-                {STARTER_PROMPTS.map((p) => (
+                {starterPrompts.map((p) => (
                   <button
                     key={p}
                     type="button"
@@ -119,11 +105,11 @@ export default function ChatWidget() {
             <input
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder="Type your question…"
+              placeholder={t("placeholder")}
               className="flex-1 rounded-full border border-harbor-200 px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-dawn-400"
             />
             <button type="submit" className="btn-primary px-4 py-2" disabled={loading}>
-              Send
+              {t("send")}
             </button>
           </form>
         </div>
@@ -134,7 +120,7 @@ export default function ChatWidget() {
         onClick={() => setOpen((v) => !v)}
         className="flex items-center gap-2 rounded-full bg-sunrise px-5 py-3 text-sm font-semibold text-white shadow-xl shadow-dawn-500/40 transition hover:scale-105"
       >
-        {open ? "Close" : "Ask Us Anything"}
+        {open ? t("closeButtonLabel") : t("openLabel")}
       </button>
     </div>
   );

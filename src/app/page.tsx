@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { coreValues, faqs, services, siteConfig } from "@/lib/siteConfig";
 import { faqJsonLd } from "@/lib/structuredData";
+import StatCounter from "@/components/StatCounter";
 
 export const metadata: Metadata = {
   title: "Supervised Visitation & Monitored Exchanges in Northeast Florida",
@@ -21,7 +22,7 @@ const trustSignals = [
 export default function HomePage() {
   return (
     <>
-      <section className="relative overflow-hidden text-white">
+      <section className="relative flex min-h-[480px] items-center overflow-hidden text-white sm:min-h-[560px] lg:min-h-[640px]">
         <Image
           src="/images/family-hero.jpg"
           alt="A joyful family together at golden hour, symbolizing a new day of hope"
@@ -60,6 +61,50 @@ export default function HomePage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="bg-harbor-950 py-14 text-white">
+        <div className="container-page">
+          <div className="grid gap-8 text-center sm:grid-cols-3">
+            <div>
+              <p className="font-display text-4xl font-bold text-dawn-300 sm:text-5xl">
+                <StatCounter target={27251} suffix="+" />
+              </p>
+              <p className="mt-2 text-sm text-harbor-200">
+                Children served in Florida&apos;s out-of-home care system in FY 2023–24 — many
+                needing safe, supervised time with a parent or caregiver
+              </p>
+            </div>
+            <div>
+              <p className="font-display text-4xl font-bold text-dawn-300 sm:text-5xl">
+                <StatCounter target={siteConfig.serviceAreaCounties.length} />
+              </p>
+              <p className="mt-2 text-sm text-harbor-200">
+                Counties served across {siteConfig.serviceArea}
+              </p>
+            </div>
+            <div>
+              <p className="font-display text-4xl font-bold text-dawn-300 sm:text-5xl">
+                <StatCounter target={10} suffix="+" />
+              </p>
+              <p className="mt-2 text-sm text-harbor-200">
+                Years of trauma-informed mental health experience
+              </p>
+            </div>
+          </div>
+          <p className="mt-8 text-center text-xs text-harbor-400">
+            Statewide figure source:{" "}
+            <a
+              href="https://www.myflfamilies.com/ocfw-dashboard"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-dawn-300"
+            >
+              Florida Department of Children and Families
+            </a>
+            . Reflects the scale of need statewide, not a live count of {siteConfig.name} cases.
+          </p>
         </div>
       </section>
 

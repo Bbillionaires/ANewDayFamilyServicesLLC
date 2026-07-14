@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <div>
-      <section className="relative overflow-hidden">
+      <section className="relative flex min-h-[420px] items-center overflow-hidden sm:min-h-[480px] lg:min-h-[540px]">
         <Image
           src="/images/about-hero.jpg"
           alt="A mother and daughter smiling warmly at each other at golden hour"

@@ -18,7 +18,7 @@ const impactTiers = [
 export default function DonatePage() {
   return (
     <div>
-      <section className="relative overflow-hidden">
+      <section className="relative flex min-h-[420px] items-center overflow-hidden sm:min-h-[480px] lg:min-h-[540px]">
         <Image
           src="/images/donate-hero.jpg"
           alt="A mother tenderly holding her newborn baby, representing the families the sponsorship fund supports"

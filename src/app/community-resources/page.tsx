@@ -88,7 +88,7 @@ const categories: Category[] = [
 export default function CommunityResourcesPage() {
   return (
     <div>
-      <section className="relative overflow-hidden">
+      <section className="relative flex min-h-[420px] items-center overflow-hidden sm:min-h-[480px] lg:min-h-[540px]">
         <Image
           src="/images/community-skyline.jpg"
           alt="The Jacksonville, Florida skyline along the St. Johns River"

@@ -39,7 +39,7 @@ const process = [
 export default function ServicesPage() {
   return (
     <div>
-      <section className="relative overflow-hidden">
+      <section className="relative flex min-h-[420px] items-center overflow-hidden sm:min-h-[480px] lg:min-h-[540px]">
         <Image
           src="/images/family-hug.jpg"
           alt="A mother laughing with her son as he rides on her back"

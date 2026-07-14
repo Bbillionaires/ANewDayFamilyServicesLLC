@@ -23,14 +23,14 @@ export default function HomePage() {
     <>
       <section className="relative overflow-hidden text-white">
         <Image
-          src="/images/hero-sunrise.jpg"
-          alt="Sunrise over the ocean, symbolizing a new day of hope for families"
+          src="/images/family-hero.jpg"
+          alt="A joyful family together at golden hour, symbolizing a new day of hope"
           fill
           priority
           sizes="100vw"
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-harbor-950/80 via-dawn-700/65 to-dawn-500/40" />
+        <div className="absolute inset-0 bg-gradient-to-br from-harbor-950/85 via-dawn-700/70 to-dawn-500/50" />
         <div className="container-page relative z-10 grid gap-10 py-20 lg:grid-cols-2 lg:items-center lg:py-28">
           <div>
             <p className="section-label text-white/80">Supervised Visitation · {siteConfig.serviceArea}</p>
@@ -64,20 +64,34 @@ export default function HomePage() {
       </section>
 
       <section className="container-page py-16 sm:py-24">
-        <p className="section-label">Our Mission</p>
-        <h2 className="mt-2 max-w-3xl font-display text-3xl font-bold text-harbor-900 sm:text-4xl">
-          Protecting children. Supporting healthy parent-child relationships.
-        </h2>
-        <p className="mt-6 max-w-3xl text-lg text-harbor-700">
-          At {siteConfig.name}, our mission is to provide safe, structured supervised visitation
-          services across {siteConfig.serviceArea} that remain neutral and unbiased toward any
-          parent, caregiver, or agency involved. We serve families engaged with the courts, DCF,
-          and private custody cases, ensuring a conflict-free environment that protects children
-          and supports healthy parent-child relationships. As a professional Medicaid Provider
-          with over 10 years of experience in the mental health field, we advocate for families
-          in need by combining trauma-informed care, cultural sensitivity, and community
-          partnerships to help them build stability, resilience, and a new day of hope together.
-        </p>
+        <div className="grid gap-10 lg:grid-cols-2 lg:items-center lg:gap-16">
+          <div>
+            <p className="section-label">Our Mission</p>
+            <h2 className="mt-2 font-display text-3xl font-bold text-harbor-900 sm:text-4xl">
+              Protecting children. Supporting healthy parent-child relationships.
+            </h2>
+            <p className="mt-6 text-lg text-harbor-700">
+              At {siteConfig.name}, our mission is to provide safe, structured supervised
+              visitation services across {siteConfig.serviceArea} that remain neutral and
+              unbiased toward any parent, caregiver, or agency involved. We serve families
+              engaged with the courts, DCF, and private custody cases, ensuring a conflict-free
+              environment that protects children and supports healthy parent-child relationships.
+              As a professional Medicaid Provider with over 10 years of experience in the mental
+              health field, we advocate for families in need by combining trauma-informed care,
+              cultural sensitivity, and community partnerships to help them build stability,
+              resilience, and a new day of hope together.
+            </p>
+          </div>
+          <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-xl">
+            <Image
+              src="/images/family-conversation.jpg"
+              alt="A parent and child talking and smiling together at home"
+              fill
+              sizes="(min-width: 1024px) 40vw, 100vw"
+              className="object-cover"
+            />
+          </div>
+        </div>
       </section>
 
       <section className="bg-harbor-50 py-16 sm:py-24">

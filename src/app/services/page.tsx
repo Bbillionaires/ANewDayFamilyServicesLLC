@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { services, siteConfig } from "@/lib/siteConfig";
 
@@ -37,12 +38,27 @@ const process = [
 
 export default function ServicesPage() {
   return (
-    <div className="container-page py-16 sm:py-24">
-      <p className="section-label">Our Services</p>
-      <h1 className="mt-2 font-display text-4xl font-bold text-harbor-900">
-        Supervised visitation and monitored exchange services across {siteConfig.serviceArea}
-      </h1>
-      <p className="mt-6 max-w-3xl text-lg text-harbor-700">
+    <div>
+      <section className="relative overflow-hidden">
+        <Image
+          src="/images/family-hug.jpg"
+          alt="A parent and child sharing a warm, loving hug"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-harbor-950/95 via-harbor-950/70 to-harbor-950/40" />
+        <div className="container-page relative z-10 py-24 sm:py-32">
+          <p className="section-label text-dawn-300">Our Services</p>
+          <h1 className="mt-2 max-w-2xl font-display text-4xl font-bold text-white">
+            Supervised visitation and monitored exchange services across {siteConfig.serviceArea}
+          </h1>
+        </div>
+      </section>
+
+      <div className="container-page py-16 sm:py-24">
+      <p className="max-w-3xl text-lg text-harbor-700">
         Every service is delivered with the same commitment: a conflict-free, structured
         environment that protects children and keeps the process fair to every parent, caregiver,
         and agency involved.
@@ -93,6 +109,7 @@ export default function ServicesPage() {
         <Link href="/donate" className="btn-secondary mt-6 inline-block bg-white text-harbor-900 hover:bg-harbor-50">
           Learn About the Sponsorship Fund
         </Link>
+      </div>
       </div>
     </div>
   );

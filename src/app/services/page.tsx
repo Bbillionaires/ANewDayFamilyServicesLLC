@@ -42,7 +42,7 @@ export default function ServicesPage() {
       <section className="relative overflow-hidden">
         <Image
           src="/images/family-hug.jpg"
-          alt="A parent and child sharing a warm, loving hug"
+          alt="A mother laughing with her son as he rides on her back"
           fill
           priority
           sizes="100vw"

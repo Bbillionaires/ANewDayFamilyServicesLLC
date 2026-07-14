@@ -21,7 +21,7 @@ export default function DonatePage() {
       <section className="relative overflow-hidden">
         <Image
           src="/images/donate-hero.jpg"
-          alt="A parent and child holding hands, representing the families the sponsorship fund supports"
+          alt="A mother tenderly holding her newborn baby, representing the families the sponsorship fund supports"
           fill
           priority
           sizes="100vw"

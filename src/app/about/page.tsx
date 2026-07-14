@@ -15,7 +15,7 @@ export default function AboutPage() {
       <section className="relative overflow-hidden">
         <Image
           src="/images/about-hero.jpg"
-          alt="A parent and child walking together hand in hand at sunset"
+          alt="A mother and daughter smiling warmly at each other at golden hour"
           fill
           priority
           sizes="100vw"

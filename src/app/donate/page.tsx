@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
@@ -16,12 +17,27 @@ const impactTiers = [
 
 export default function DonatePage() {
   return (
-    <div className="container-page py-16 sm:py-24">
-      <p className="section-label">Family Visitation Sponsorship Fund</p>
-      <h1 className="mt-2 font-display text-4xl font-bold text-harbor-900">
-        Help a family get their new day
-      </h1>
-      <p className="mt-6 max-w-3xl text-lg text-harbor-700">
+    <div>
+      <section className="relative overflow-hidden">
+        <Image
+          src="/images/donate-hero.jpg"
+          alt="A parent and child holding hands, representing the families the sponsorship fund supports"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-harbor-950/95 via-harbor-950/75 to-harbor-950/45" />
+        <div className="container-page relative z-10 py-24 sm:py-32">
+          <p className="section-label text-dawn-300">Family Visitation Sponsorship Fund</p>
+          <h1 className="mt-2 max-w-2xl font-display text-4xl font-bold text-white">
+            Help a family get their new day
+          </h1>
+        </div>
+      </section>
+
+      <div className="container-page py-16 sm:py-24">
+      <p className="max-w-3xl text-lg text-harbor-700">
         {siteConfig.name} is a professional Medicaid Provider and for-profit LLC — not a
         registered 501(c)(3) nonprofit. Contributions to the Family Visitation Sponsorship Fund
         support our community mission of making supervised visitation and monitored exchange
@@ -86,6 +102,7 @@ export default function DonatePage() {
             </p>
           </div>
         </aside>
+      </div>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { coreValues, faqs, services, siteConfig } from "@/lib/siteConfig";
 import { faqJsonLd } from "@/lib/structuredData";
@@ -20,8 +21,17 @@ const trustSignals = [
 export default function HomePage() {
   return (
     <>
-      <section className="relative overflow-hidden bg-sunrise text-white">
-        <div className="container-page grid gap-10 py-20 lg:grid-cols-2 lg:items-center lg:py-28">
+      <section className="relative overflow-hidden text-white">
+        <Image
+          src="/images/hero-sunrise.jpg"
+          alt="Sunrise over the ocean, symbolizing a new day of hope for families"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-harbor-950/80 via-dawn-700/65 to-dawn-500/40" />
+        <div className="container-page relative z-10 grid gap-10 py-20 lg:grid-cols-2 lg:items-center lg:py-28">
           <div>
             <p className="section-label text-white/80">Supervised Visitation · {siteConfig.serviceArea}</p>
             <h1 className="mt-4 font-display text-4xl font-bold leading-tight sm:text-5xl">

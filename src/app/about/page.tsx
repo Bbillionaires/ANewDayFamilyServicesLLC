@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { coreValues, siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
@@ -10,12 +11,26 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="container-page py-16 sm:py-24">
-      <p className="section-label">About Us</p>
-      <h1 className="mt-2 font-display text-4xl font-bold text-harbor-900">
-        A trauma-informed, neutral partner for {siteConfig.serviceArea} families
-      </h1>
+    <div>
+      <section className="relative overflow-hidden">
+        <Image
+          src="/images/about-hero.jpg"
+          alt="A parent and child walking together hand in hand at sunset"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-harbor-950/95 via-harbor-950/70 to-harbor-950/40" />
+        <div className="container-page relative z-10 py-24 sm:py-32">
+          <p className="section-label text-dawn-300">About Us</p>
+          <h1 className="mt-2 max-w-2xl font-display text-4xl font-bold text-white">
+            A trauma-informed, neutral partner for {siteConfig.serviceArea} families
+          </h1>
+        </div>
+      </section>
 
+      <div className="container-page py-16 sm:py-24">
       <div className="mt-10 grid gap-12 lg:grid-cols-3">
         <div className="lg:col-span-2 space-y-6 text-lg text-harbor-700">
           <p>
@@ -74,6 +89,7 @@ export default function AboutPage() {
             </div>
           ))}
         </div>
+      </div>
       </div>
     </div>
   );

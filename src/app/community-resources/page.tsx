@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
@@ -86,12 +87,27 @@ const categories: Category[] = [
 
 export default function CommunityResourcesPage() {
   return (
-    <div className="container-page py-16 sm:py-24">
-      <p className="section-label">Community Resources</p>
-      <h1 className="mt-2 font-display text-4xl font-bold text-harbor-900">
-        Additional support for {siteConfig.serviceArea} families
-      </h1>
-      <p className="mt-6 max-w-3xl text-lg text-harbor-700">
+    <div>
+      <section className="relative overflow-hidden">
+        <Image
+          src="/images/community-skyline.jpg"
+          alt="The Jacksonville, Florida skyline along the St. Johns River"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-harbor-950/95 via-harbor-950/75 to-harbor-950/45" />
+        <div className="container-page relative z-10 py-24 sm:py-32">
+          <p className="section-label text-dawn-300">Community Resources</p>
+          <h1 className="mt-2 max-w-2xl font-display text-4xl font-bold text-white">
+            Additional support for {siteConfig.serviceArea} families
+          </h1>
+        </div>
+      </section>
+
+      <div className="container-page py-16 sm:py-24">
+      <p className="max-w-3xl text-lg text-harbor-700">
         Supervised visitation is one part of a bigger support system. Here are trusted,
         independent organizations that can help with legal questions, DCF matters, safety
         concerns, counseling, and everyday needs. {siteConfig.name} is not affiliated with these
@@ -129,6 +145,7 @@ export default function CommunityResourcesPage() {
           If you or a child is in immediate danger, call 911. This directory is for general
           information only and is not legal advice.
         </p>
+      </div>
       </div>
     </div>
   );

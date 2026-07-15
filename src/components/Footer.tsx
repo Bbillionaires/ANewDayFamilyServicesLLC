@@ -29,8 +29,18 @@ export default function Footer() {
           <ul className="mt-3 space-y-2 text-sm text-harbor-200">
             <li>{t("servingPrefix")} {siteConfig.serviceArea}</li>
             <li>{siteConfig.serviceAreaCounties.join(", ")} {t("countiesSuffix")}</li>
-            <li>{t("phoneLabel")}: {siteConfig.phone}</li>
-            <li>{t("emailLabel")}: {siteConfig.email}</li>
+            <li>
+              {t("phoneLabel")}:{" "}
+              <a href={`tel:+1${siteConfig.phone.replace(/\D/g, "")}`} className="hover:text-dawn-300">
+                {siteConfig.phone}
+              </a>
+            </li>
+            <li>
+              {t("emailLabel")}:{" "}
+              <a href={`mailto:${siteConfig.email}`} className="hover:text-dawn-300">
+                {siteConfig.email}
+              </a>
+            </li>
           </ul>
         </div>
 

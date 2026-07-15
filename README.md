@@ -54,8 +54,9 @@ before the key is configured.
 
 - `NEXT_PUBLIC_SITE_URL` — currently a placeholder domain; set to the real production domain
   (used in canonical URLs, sitemap, and structured data)
-- `NEXT_PUBLIC_CONTACT_PHONE` / `NEXT_PUBLIC_CONTACT_EMAIL` — shown as `[PHONE]` / `[EMAIL]`
-  throughout the footer and Donate page until set
+- Real contact info — phone `(904) 270-9463` and email `Info@anewdayfamilyservices.com` — is
+  hardcoded as the default in `src/lib/siteConfig.ts`. Override with `NEXT_PUBLIC_CONTACT_PHONE` /
+  `NEXT_PUBLIC_CONTACT_EMAIL` only if a specific deployment needs different values.
 - `ANTHROPIC_API_KEY` — required for the live AI assistant
 - `SQUARE_ACCESS_TOKEN` / `SQUARE_LOCATION_ID` — the Donate page's Square button is disabled
   until real Square checkout is wired up

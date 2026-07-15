@@ -247,7 +247,7 @@
     "whoBenefitsLabel": "Who benefits",
     "whoBenefitsBody": "Families referred by the courts, DCF, or through private hardship who qualify for reduced or sponsored fees for supervised visitation and monitored exchanges.",
     "sponsorshipAskLabel": "Ask about sponsorship",
-    "sponsorshipAskBody": "If your family needs support covering visitation fees, contact us at {phone} or {email} to ask about eligibility."
+    "sponsorshipAskBody": "If your family needs support covering visitation fees, contact us at <phoneLink>{phone}</phoneLink> or <emailLink>{email}</emailLink> to ask about eligibility."
   },
   "CommunityResourcesPage": {
     "metaTitle": "Community Resources for Northeast Florida Families",

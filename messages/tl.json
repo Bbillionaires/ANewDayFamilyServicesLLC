@@ -247,7 +247,7 @@
     "whoBenefitsLabel": "Sino ang Nakikinabang",
     "whoBenefitsBody": "Mga pamilyang ni-refer ng mga korte, DCF, o sa pamamagitan ng pribadong kahirapan na kwalipikado para sa nabawasan o naka-sponsor na bayarin para sa supervised visitation at monitored exchanges.",
     "sponsorshipAskLabel": "Magtanong Tungkol sa Sponsorship",
-    "sponsorshipAskBody": "Kung kailangan ng inyong pamilya ng tulong sa pagbayad ng visitation fees, makipag-ugnayan sa amin sa {phone} o {email} upang magtanong tungkol sa kwalipikasyon."
+    "sponsorshipAskBody": "Kung kailangan ng inyong pamilya ng tulong sa pagbayad ng visitation fees, makipag-ugnayan sa amin sa <phoneLink>{phone}</phoneLink> o <emailLink>{email}</emailLink> upang magtanong tungkol sa kwalipikasyon."
   },
   "CommunityResourcesPage": {
     "metaTitle": "Mga Mapagkukunan ng Komunidad para sa mga Pamilya sa Northeast Florida",

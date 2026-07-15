@@ -247,7 +247,7 @@
     "whoBenefitsLabel": "Quién se beneficia",
     "whoBenefitsBody": "Familias referidas por los tribunales, el DCF, o por dificultades privadas que califican para tarifas reducidas o patrocinadas de visitación supervisada e intercambios monitoreados.",
     "sponsorshipAskLabel": "Pregunte sobre el patrocinio",
-    "sponsorshipAskBody": "Si su familia necesita ayuda para cubrir las tarifas de visitación, comuníquese con nosotros al {phone} o {email} para preguntar sobre la elegibilidad."
+    "sponsorshipAskBody": "Si su familia necesita ayuda para cubrir las tarifas de visitación, comuníquese con nosotros al <phoneLink>{phone}</phoneLink> o <emailLink>{email}</emailLink> para preguntar sobre la elegibilidad."
   },
   "CommunityResourcesPage": {
     "metaTitle": "Recursos Comunitarios para Familias del Noreste de Florida",

@@ -5,8 +5,8 @@ export const siteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.anewdayfamilyservices.com",
   serviceArea: "Northeast Florida",
   serviceAreaCounties: ["Duval", "Clay", "St. Johns", "Nassau", "Baker"],
-  phone: process.env.NEXT_PUBLIC_CONTACT_PHONE || "[PHONE]",
-  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "[EMAIL]",
+  phone: process.env.NEXT_PUBLIC_CONTACT_PHONE || "(904) 270-9463",
+  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "Info@anewdayfamilyservices.com",
   addressLocality: "Jacksonville, FL",
   developerCredit: {
     name: "De'Aris Henry",

@@ -104,7 +104,20 @@ export default async function DonatePage({
                 {t("sponsorshipAskLabel")}
               </p>
               <p className="mt-2 text-sm text-harbor-700">
-                {t("sponsorshipAskBody", { phone: siteConfig.phone, email: siteConfig.email })}
+                {t.rich("sponsorshipAskBody", {
+                  phone: siteConfig.phone,
+                  email: siteConfig.email,
+                  phoneLink: (chunks) => (
+                    <a href={`tel:+1${siteConfig.phone.replace(/\D/g, "")}`} className="font-medium text-dawn-700 hover:underline">
+                      {chunks}
+                    </a>
+                  ),
+                  emailLink: (chunks) => (
+                    <a href={`mailto:${siteConfig.email}`} className="font-medium text-dawn-700 hover:underline">
+                      {chunks}
+                    </a>
+                  ),
+                })}
               </p>
             </div>
           </aside>

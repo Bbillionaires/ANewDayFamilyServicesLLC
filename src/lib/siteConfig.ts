@@ -22,37 +22,37 @@ export const coreValues = [
   {
     name: "Neutrality",
     description:
-      "I provide supervised visitation that is fair and unbiased to every parent, caregiver, and agency, focusing on the child's best interest above all else.",
+      "We provide supervised visitation that is fair and unbiased to every parent, caregiver, and agency, focusing on the child's best interest above all else.",
   },
   {
     name: "Safety",
     description:
-      "I create a structured, secure environment where children and families can interact without fear, conflict, or pressure.",
+      "We create a structured, secure environment where children and families can interact without fear, conflict, or pressure.",
   },
   {
     name: "Respect",
     description:
-      "I treat every family with dignity, listening without judgment and honoring each person's background and culture.",
+      "We treat every family with dignity, listening without judgment and honoring each person's background and culture.",
   },
   {
     name: "Advocacy",
     description:
-      "I stand up for families in need by helping them access services, understand systems, and feel supported during difficult times.",
+      "We stand up for families in need by helping them access services, understand systems, and feel supported during difficult times.",
   },
   {
     name: "Professionalism",
     description:
-      "With over 10 years in the mental health field as a Medicaid Provider, I follow high ethical standards, clear boundaries, and consistent procedures in every visit.",
+      "With more than 10 years of combined experience in the mental health field as a Medicaid Provider, our team follows high ethical standards, clear boundaries, and consistent procedures in every visit.",
   },
   {
     name: "Compassion",
     description:
-      "I approach every family with empathy and patience, recognizing that supervised visitation often happens during stressful and emotional times.",
+      "We approach every family with empathy and patience, recognizing that supervised visitation often happens during stressful and emotional times.",
   },
   {
     name: "Collaboration",
     description:
-      "I work closely with courts, DCF, therapists, and other community partners so families receive coordinated, consistent support.",
+      "We work closely with courts, DCF, therapists, and other community partners so families receive coordinated, consistent support.",
   },
 ] as const;
 
@@ -75,7 +75,7 @@ export const services = [
     slug: "therapeutic-visitation",
     name: "Therapeutic & Trauma-Informed Visitation",
     summary:
-      "Trauma-informed support for families rebuilding trust after crisis, separation, or a period of no contact — grounded in over a decade of mental health experience.",
+      "Trauma-informed support for families rebuilding trust after crisis, separation, or a period of no contact — grounded in over a decade of combined mental health experience.",
     keywords: ["therapeutic supervised visitation Florida", "trauma-informed family services Jacksonville"],
   },
   {
@@ -106,7 +106,7 @@ export const faqs = [
   {
     question: "Are you a Medicaid provider?",
     answer:
-      "Yes. A New Day Family Services LLC is a professional Medicaid Provider with over 10 years of experience in the mental health field.",
+      "Yes. A New Day Family Services LLC is a professional Medicaid Provider with over 10 years of combined team experience in the mental health field.",
   },
   {
     question: "How do I get started with a referral or custody order?",

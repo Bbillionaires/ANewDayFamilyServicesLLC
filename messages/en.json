@@ -19,7 +19,7 @@
     "credentials": "Credentials",
     "credentialsList": [
       "Professional Medicaid Provider",
-      "10+ years in the mental health field",
+      "10+ years of combined experience in the mental health field",
       "Neutral, trauma-informed, court & DCF experienced"
     ],
     "copyright": "All rights reserved."
@@ -52,31 +52,31 @@
     "items": [
       {
         "name": "Neutrality",
-        "description": "I provide supervised visitation that is fair and unbiased to every parent, caregiver, and agency, focusing on the child's best interest above all else."
+        "description": "We provide supervised visitation that is fair and unbiased to every parent, caregiver, and agency, focusing on the child's best interest above all else."
       },
       {
         "name": "Safety",
-        "description": "I create a structured, secure environment where children and families can interact without fear, conflict, or pressure."
+        "description": "We create a structured, secure environment where children and families can interact without fear, conflict, or pressure."
       },
       {
         "name": "Respect",
-        "description": "I treat every family with dignity, listening without judgment and honoring each person's background and culture."
+        "description": "We treat every family with dignity, listening without judgment and honoring each person's background and culture."
       },
       {
         "name": "Advocacy",
-        "description": "I stand up for families in need by helping them access services, understand systems, and feel supported during difficult times."
+        "description": "We stand up for families in need by helping them access services, understand systems, and feel supported during difficult times."
       },
       {
         "name": "Professionalism",
-        "description": "With over 10 years in the mental health field as a Medicaid Provider, I follow high ethical standards, clear boundaries, and consistent procedures in every visit."
+        "description": "With more than 10 years of combined experience in the mental health field as a Medicaid Provider, our team follows high ethical standards, clear boundaries, and consistent procedures in every visit."
       },
       {
         "name": "Compassion",
-        "description": "I approach every family with empathy and patience, recognizing that supervised visitation often happens during stressful and emotional times."
+        "description": "We approach every family with empathy and patience, recognizing that supervised visitation often happens during stressful and emotional times."
       },
       {
         "name": "Collaboration",
-        "description": "I work closely with courts, DCF, therapists, and other community partners so families receive coordinated, consistent support."
+        "description": "We work closely with courts, DCF, therapists, and other community partners so families receive coordinated, consistent support."
       }
     ]
   },
@@ -95,7 +95,7 @@
       {
         "slug": "therapeutic-visitation",
         "name": "Therapeutic & Trauma-Informed Visitation",
-        "summary": "Trauma-informed support for families rebuilding trust after crisis, separation, or a period of no contact — grounded in over a decade of mental health experience."
+        "summary": "Trauma-informed support for families rebuilding trust after crisis, separation, or a period of no contact — grounded in over a decade of combined mental health experience."
       },
       {
         "slug": "court-documentation",
@@ -122,7 +122,7 @@
       },
       {
         "question": "Are you a Medicaid provider?",
-        "answer": "Yes. A New Day Family Services LLC is a professional Medicaid Provider with over 10 years of experience in the mental health field."
+        "answer": "Yes. A New Day Family Services LLC is a professional Medicaid Provider with over 10 years of combined team experience in the mental health field."
       },
       {
         "question": "How do I get started with a referral or custody order?",
@@ -139,7 +139,7 @@
     "metaDescription": "A New Day Family Services LLC provides safe, neutral supervised visitation and monitored child exchanges for Northeast Florida families connected to the courts, DCF, and private custody cases.",
     "trustSignals": [
       "Professional Medicaid Provider",
-      "10+ years in the mental health field",
+      "10+ years of combined experience in the mental health field",
       "Neutral toward every parent, caregiver & agency",
       "Trauma-informed & culturally sensitive care"
     ],
@@ -150,13 +150,13 @@
     "sponsorFamily": "Sponsor a Family",
     "statChildrenLabel": "Children served in Florida's out-of-home care system in FY 2023–24 — many needing safe, supervised time with a parent or caregiver",
     "statCountiesLabel": "Counties served across {serviceArea}",
-    "statYearsLabel": "Years of trauma-informed mental health experience",
+    "statYearsLabel": "Years of combined trauma-informed mental health experience",
     "statSourcePrefix": "Statewide figure source:",
     "statSourceName": "Florida Department of Children and Families",
     "statSourceDisclaimer": "Reflects the scale of need statewide, not a live count of {name} cases.",
     "missionLabel": "Our Mission",
     "missionTitle": "Protecting children. Supporting healthy parent-child relationships.",
-    "missionBody": "At {name}, our mission is to provide safe, structured supervised visitation services across {serviceArea} that remain neutral and unbiased toward any parent, caregiver, or agency involved. We serve families engaged with the courts, DCF, and private custody cases, ensuring a conflict-free environment that protects children and supports healthy parent-child relationships. As a professional Medicaid Provider with over 10 years of experience in the mental health field, we advocate for families in need by combining trauma-informed care, cultural sensitivity, and community partnerships to help them build stability, resilience, and a new day of hope together.",
+    "missionBody": "At {name}, our mission is to provide safe, structured supervised visitation services across {serviceArea} that remain neutral and unbiased toward any parent, caregiver, or agency involved. We serve families engaged with the courts, DCF, and private custody cases, ensuring a conflict-free environment that protects children and supports healthy parent-child relationships. As a professional Medicaid Provider with over 10 years of combined experience in the mental health field, we advocate for families in need by combining trauma-informed care, cultural sensitivity, and community partnerships to help them build stability, resilience, and a new day of hope together.",
     "offerLabel": "What We Offer",
     "offerTitle": "Services built around safety and neutrality",
     "seeFullServices": "See full service details →",
@@ -183,10 +183,22 @@
     "howLabel": "How It Works",
     "howTitle": "From referral to documented visit",
     "process": [
-      { "step": "1. Intake", "detail": "Share your court order, DCF referral, or private request along with basic family information." },
-      { "step": "2. Scheduling", "detail": "We coordinate a neutral time and location for visitation or exchange that works within court/DCF requirements." },
-      { "step": "3. Supervised Visit or Exchange", "detail": "A trained, neutral professional observes the visit or manages the handoff to keep the focus on the child's safety and comfort." },
-      { "step": "4. Documentation", "detail": "Objective visit notes and reports are prepared and made available to the court, DCF, or attorneys as required." }
+      {
+        "step": "1. Intake",
+        "detail": "Share your court order, DCF referral, or private request along with basic family information."
+      },
+      {
+        "step": "2. Scheduling",
+        "detail": "We coordinate a neutral time and location for visitation or exchange that works within court/DCF requirements."
+      },
+      {
+        "step": "3. Supervised Visit or Exchange",
+        "detail": "A trained, neutral professional observes the visit or manages the handoff to keep the focus on the child's safety and comfort."
+      },
+      {
+        "step": "4. Documentation",
+        "detail": "Objective visit notes and reports are prepared and made available to the court, DCF, or attorneys as required."
+      }
     ],
     "cantCoverTitle": "Can't cover the full cost?",
     "cantCoverBody": "Our Family Visitation Sponsorship Fund helps qualifying families access these services.",
@@ -198,12 +210,12 @@
     "heroLabel": "About Us",
     "heroTitle": "A trauma-informed, neutral partner for {serviceArea} families",
     "paragraph1": "The purpose of {name} is to provide neutral, safe, and structured supervised visitation services for families across {serviceArea}. We serve families involved with the court system, the Department of Children and Families (DCF), and private custody cases, giving children a secure place to maintain or rebuild relationships with their parents and caregivers. Our role is not to take sides, but to observe, document, and support healthy interactions while keeping children's wellbeing at the center of every visit.",
-    "paragraph2": "As a professional Medicaid Provider with more than a decade of experience in the mental health field, we bring a trauma-informed, family-focused approach to every service we offer. We understand that many families seeking supervised visitation have lived through crisis, conflict, or major life changes. Because of this, we use clear guidelines, consistent routines, and calm communication to reduce stress and confusion during visits.",
+    "paragraph2": "As a professional Medicaid Provider with more than a decade of combined experience in the mental health field, we bring a trauma-informed, family-focused approach to every service we offer. We understand that many families seeking supervised visitation have lived through crisis, conflict, or major life changes. Because of this, we use clear guidelines, consistent routines, and calm communication to reduce stress and confusion during visits.",
     "paragraph3": "{name} exists to advocate for families in need by offering high-quality visitation services and helping connect them to additional community supports when appropriate. Our goal is to help families move toward stability and healing, one visit at a time, so that children can experience a \"new day\" of hope, safety, and connection with the people who matter most to them.",
     "credentialsLabel": "Credentials",
     "credentialsList": [
       "Professional Medicaid Provider",
-      "10+ years of experience in the mental health field",
+      "10+ years of combined team experience in the mental health field",
       "Trauma-informed, culturally sensitive practice",
       "Experience with courts, DCF, and private custody cases"
     ],
@@ -219,9 +231,18 @@
     "intro": "{name} is a professional Medicaid Provider and for-profit LLC — not a registered 501(c)(3) nonprofit. Contributions to the Family Visitation Sponsorship Fund support our community mission of making supervised visitation and monitored exchange services accessible to qualifying families who cannot cover the full cost. These contributions are <strong>not tax-deductible</strong>.",
     "supportsTitle": "What your contribution supports",
     "impactTiers": [
-      { "amount": "$49", "impact": "Covers one monitored child exchange for a family in need." },
-      { "amount": "$90", "impact": "Covers an intake session for a parent or guardian starting services." },
-      { "amount": "$120", "impact": "Covers one hour of therapeutic, trauma-informed supervised visitation." }
+      {
+        "amount": "$49",
+        "impact": "Covers one monitored child exchange for a family in need."
+      },
+      {
+        "amount": "$90",
+        "impact": "Covers an intake session for a parent or guardian starting services."
+      },
+      {
+        "amount": "$120",
+        "impact": "Covers one hour of therapeutic, trauma-informed supervised visitation."
+      }
     ],
     "squareTitle": "Contribute via Square",
     "squareBody": "Secure checkout is powered by Square. This button is a placeholder until a live Square location and access token are configured — see <code>.env.example</code>.",
@@ -242,30 +263,71 @@
       {
         "title": "Family Court & Legal Self-Help",
         "resources": [
-          { "name": "Duval County Family Court Services", "detail": "Walk-in family court help, 501 W Adams St, 2nd Floor, Jacksonville, FL 32202.", "url": "https://www.duvalclerk.com/departments/civil-court-services/family-law" },
-          { "name": "Florida Courts Family Law Self-Help Forms", "detail": "Free state forms for custody, visitation, child support, and domestic violence — usable without an attorney.", "url": "https://www.flcourts.gov/Services/Family-Courts/self-help-information" },
-          { "name": "Jacksonville Area Legal Aid", "detail": "Free civil legal help for qualifying families, including family law matters.", "phone": "(904) 356-8371", "url": "https://www.jaxlegalaid.org/" }
+          {
+            "name": "Duval County Family Court Services",
+            "detail": "Walk-in family court help, 501 W Adams St, 2nd Floor, Jacksonville, FL 32202.",
+            "url": "https://www.duvalclerk.com/departments/civil-court-services/family-law"
+          },
+          {
+            "name": "Florida Courts Family Law Self-Help Forms",
+            "detail": "Free state forms for custody, visitation, child support, and domestic violence — usable without an attorney.",
+            "url": "https://www.flcourts.gov/Services/Family-Courts/self-help-information"
+          },
+          {
+            "name": "Jacksonville Area Legal Aid",
+            "detail": "Free civil legal help for qualifying families, including family law matters.",
+            "phone": "(904) 356-8371",
+            "url": "https://www.jaxlegalaid.org/"
+          }
         ]
       },
       {
         "title": "DCF & Child Welfare",
         "resources": [
-          { "name": "Florida Department of Children and Families (DCF)", "detail": "Child welfare, dependency case information, foster care, and family support services statewide.", "url": "https://www.myflfamilies.com/" },
-          { "name": "Florida Abuse Hotline", "detail": "Report suspected child abuse, neglect, or abandonment — available 24/7.", "phone": "1-800-96-ABUSE (1-800-962-2873)", "url": "https://www.myflfamilies.com/abuse-hotline" }
+          {
+            "name": "Florida Department of Children and Families (DCF)",
+            "detail": "Child welfare, dependency case information, foster care, and family support services statewide.",
+            "url": "https://www.myflfamilies.com/"
+          },
+          {
+            "name": "Florida Abuse Hotline",
+            "detail": "Report suspected child abuse, neglect, or abandonment — available 24/7.",
+            "phone": "1-800-96-ABUSE (1-800-962-2873)",
+            "url": "https://www.myflfamilies.com/abuse-hotline"
+          }
         ]
       },
       {
         "title": "Domestic Violence & Safety",
         "resources": [
-          { "name": "Hubbard House", "detail": "Domestic violence shelter, safety planning, and advocacy serving Northeast Florida.", "phone": "(904) 354-3114", "url": "https://www.hubbardhouse.org/" },
-          { "name": "National Domestic Violence Hotline", "detail": "24/7 confidential support for anyone experiencing domestic violence.", "phone": "1-800-799-7233", "url": "https://www.thehotline.org/" }
+          {
+            "name": "Hubbard House",
+            "detail": "Domestic violence shelter, safety planning, and advocacy serving Northeast Florida.",
+            "phone": "(904) 354-3114",
+            "url": "https://www.hubbardhouse.org/"
+          },
+          {
+            "name": "National Domestic Violence Hotline",
+            "detail": "24/7 confidential support for anyone experiencing domestic violence.",
+            "phone": "1-800-799-7233",
+            "url": "https://www.thehotline.org/"
+          }
         ]
       },
       {
         "title": "Counseling, Co-Parenting & Basic Needs",
         "resources": [
-          { "name": "211 Northeast Florida", "detail": "Free, confidential referral line for housing, food, counseling, and other family support services.", "phone": "211", "url": "https://www.211unitedway.org/" },
-          { "name": "Jewish Family & Community Services (JFCS) Jacksonville", "detail": "Counseling and additional supervised visitation and family support programs in Jacksonville.", "url": "https://jfcsjax.org/" }
+          {
+            "name": "211 Northeast Florida",
+            "detail": "Free, confidential referral line for housing, food, counseling, and other family support services.",
+            "phone": "211",
+            "url": "https://www.211unitedway.org/"
+          },
+          {
+            "name": "Jewish Family & Community Services (JFCS) Jacksonville",
+            "detail": "Counseling and additional supervised visitation and family support programs in Jacksonville.",
+            "url": "https://jfcsjax.org/"
+          }
         ]
       }
     ],

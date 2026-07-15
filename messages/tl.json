@@ -19,7 +19,7 @@
     "credentials": "Mga Kredensyal",
     "credentialsList": [
       "Propesyonal na Medicaid Provider",
-      "Mahigit 10 taong karanasan sa larangan ng kalusugang pangkaisipan",
+      "Mahigit 10 taong pinagsamang karanasan sa larangan ng kalusugang pangkaisipan",
       "Neutral, may kaalaman sa trauma, may karanasan sa korte at DCF"
     ],
     "copyright": "Lahat ng karapatan ay nakalaan."
@@ -52,31 +52,31 @@
     "items": [
       {
         "name": "Neutralidad",
-        "description": "Nagbibigay ako ng supervised visitation na patas at walang kinikilingan sa bawat magulang, tagapag-alaga, at ahensya, na inuuna ang kapakanan ng bata sa lahat ng bagay."
+        "description": "Nagbibigay kami ng supervised visitation na patas at walang kinikilingan sa bawat magulang, tagapag-alaga, at ahensya, na inuuna ang kapakanan ng bata sa lahat ng bagay."
       },
       {
         "name": "Kaligtasan",
-        "description": "Lumilikha ako ng structured at ligtas na kapaligiran kung saan makakapag-ugnayan ang mga bata at pamilya nang walang takot, tunggalian, o presyon."
+        "description": "Lumilikha kami ng structured at ligtas na kapaligiran kung saan makakapag-ugnayan ang mga bata at pamilya nang walang takot, tunggalian, o presyon."
       },
       {
         "name": "Paggalang",
-        "description": "Tinatrato ko ang bawat pamilya nang may dignidad, nakikinig nang walang paghatol at iginagalang ang background at kultura ng bawat tao."
+        "description": "Tinatrato namin ang bawat pamilya nang may dignidad, nakikinig nang walang paghatol at iginagalang ang background at kultura ng bawat tao."
       },
       {
         "name": "Pagtataguyod",
-        "description": "Ipinaglalaban ko ang mga pamilyang nangangailangan sa pamamagitan ng pagtulong sa kanila na makakuha ng mga serbisyo, maunawaan ang mga sistema, at makaramdam ng suporta sa mahihirap na panahon."
+        "description": "Ipinaglalaban namin ang mga pamilyang nangangailangan sa pamamagitan ng pagtulong sa kanila na makakuha ng mga serbisyo, maunawaan ang mga sistema, at makaramdam ng suporta sa mahihirap na panahon."
       },
       {
         "name": "Propesyonalismo",
-        "description": "Bilang isang Medicaid Provider na may mahigit 10 taong karanasan sa larangan ng kalusugang pangkaisipan, sinusunod ko ang mataas na pamantayang etikal, malinaw na hangganan, at pare-parehong pamamaraan sa bawat pagbisita."
+        "description": "Bilang isang Medicaid Provider na may mahigit 10 taong pinagsamang karanasan sa larangan ng kalusugang pangkaisipan, sinusunod ng aming koponan ang mataas na pamantayang etikal, malinaw na hangganan, at pare-parehong pamamaraan sa bawat pagbisita."
       },
       {
         "name": "Pagmamalasakit",
-        "description": "Lumalapit ako sa bawat pamilya nang may empatiya at pasensya, kinikilala na ang supervised visitation ay kadalasang nagaganap sa mga panahong puno ng stress at emosyon."
+        "description": "Lumalapit kami sa bawat pamilya nang may empatiya at pasensya, kinikilala na ang supervised visitation ay kadalasang nagaganap sa mga panahong puno ng stress at emosyon."
       },
       {
         "name": "Pakikipagtulungan",
-        "description": "Malapit akong nakikipagtulungan sa mga korte, DCF, therapist, at iba pang kasosyo sa komunidad upang makatanggap ang mga pamilya ng maayos at pare-parehong suporta."
+        "description": "Malapit kaming nakikipagtulungan sa mga korte, DCF, therapist, at iba pang kasosyo sa komunidad upang makatanggap ang mga pamilya ng maayos at pare-parehong suporta."
       }
     ]
   },
@@ -95,7 +95,7 @@
       {
         "slug": "therapeutic-visitation",
         "name": "Therapeutic at Trauma-Informed na Visitation",
-        "summary": "Suportang may kaalaman sa trauma para sa mga pamilyang muling nagtatayo ng tiwala matapos ang krisis, paghihiwalay, o panahon ng walang contact — batay sa mahigit isang dekada ng karanasan sa kalusugang pangkaisipan."
+        "summary": "Suportang may kaalaman sa trauma para sa mga pamilyang muling nagtatayo ng tiwala matapos ang krisis, paghihiwalay, o panahon ng walang contact — batay sa mahigit isang dekada ng pinagsamang karanasan sa kalusugang pangkaisipan."
       },
       {
         "slug": "court-documentation",
@@ -122,7 +122,7 @@
       },
       {
         "question": "Kayo ba ay isang Medicaid provider?",
-        "answer": "Oo. Ang A New Day Family Services LLC ay isang propesyonal na Medicaid Provider na may mahigit 10 taong karanasan sa larangan ng kalusugang pangkaisipan."
+        "answer": "Oo. Ang A New Day Family Services LLC ay isang propesyonal na Medicaid Provider na may mahigit 10 taong pinagsamang karanasan bilang koponan sa larangan ng kalusugang pangkaisipan."
       },
       {
         "question": "Paano ako magsisimula gamit ang referral o custody order?",
@@ -139,7 +139,7 @@
     "metaDescription": "Ang A New Day Family Services LLC ay nagbibigay ng ligtas at neutral na supervised visitation at monitored child exchanges para sa mga pamilya sa Northeast Florida na konektado sa mga korte, DCF, at pribadong kaso ng custody.",
     "trustSignals": [
       "Propesyonal na Medicaid Provider",
-      "Mahigit 10 taong karanasan sa larangan ng kalusugang pangkaisipan",
+      "Mahigit 10 taong pinagsamang karanasan sa larangan ng kalusugang pangkaisipan",
       "Neutral sa bawat magulang, tagapag-alaga, at ahensya",
       "May kaalaman sa trauma at sensitibo sa kultura"
     ],
@@ -150,13 +150,13 @@
     "sponsorFamily": "Mag-sponsor ng Pamilya",
     "statChildrenLabel": "Mga batang naserbisyuhan sa out-of-home care system ng Florida noong taon-piskal 2023–24 — marami sa kanila ang nangangailangan ng ligtas at supervised na oras kasama ang isang magulang o tagapag-alaga",
     "statCountiesLabel": "Mga county na sinasaklaw sa {serviceArea}",
-    "statYearsLabel": "Taon ng karanasan sa kalusugang pangkaisipan na may kaalaman sa trauma",
+    "statYearsLabel": "Taon ng pinagsamang karanasan sa kalusugang pangkaisipan na may kaalaman sa trauma",
     "statSourcePrefix": "Pinagmulan ng datos sa buong estado:",
     "statSourceName": "Florida Department of Children and Families",
     "statSourceDisclaimer": "Ipinapakita nito ang saklaw ng pangangailangan sa buong estado, hindi ang live na bilang ng mga kaso ng {name}.",
     "missionLabel": "Ang Aming Misyon",
     "missionTitle": "Pinoprotektahan ang mga bata. Sinusuportahan ang malusog na relasyon ng magulang at anak.",
-    "missionBody": "Sa {name}, ang aming misyon ay magbigay ng ligtas at structured na serbisyo ng supervised visitation sa {serviceArea} na nananatiling neutral at walang kinikilingan sa kahit anong magulang, tagapag-alaga, o ahensyang kasangkot. Naglilingkod kami sa mga pamilyang konektado sa mga korte, DCF, at pribadong kaso ng custody, tinitiyak ang isang kapaligirang walang tunggalian na nagpoprotekta sa mga bata at sumusuporta sa malusog na relasyon ng magulang at anak. Bilang isang propesyonal na Medicaid Provider na may mahigit 10 taong karanasan sa larangan ng kalusugang pangkaisipan, ipinaglalaban namin ang mga pamilyang nangangailangan sa pamamagitan ng pagsasama ng trauma-informed care, sensitibidad sa kultura, at pakikipagtulungan sa komunidad upang matulungan silang bumuo ng katatagan, kakayahang bumangon, at isang bagong araw ng pag-asa nang magkasama.",
+    "missionBody": "Sa {name}, ang aming misyon ay magbigay ng ligtas at structured na serbisyo ng supervised visitation sa {serviceArea} na nananatiling neutral at walang kinikilingan sa kahit anong magulang, tagapag-alaga, o ahensyang kasangkot. Naglilingkod kami sa mga pamilyang konektado sa mga korte, DCF, at pribadong kaso ng custody, tinitiyak ang isang kapaligirang walang tunggalian na nagpoprotekta sa mga bata at sumusuporta sa malusog na relasyon ng magulang at anak. Bilang isang propesyonal na Medicaid Provider na may mahigit 10 taong pinagsamang karanasan sa larangan ng kalusugang pangkaisipan, ipinaglalaban namin ang mga pamilyang nangangailangan sa pamamagitan ng pagsasama ng trauma-informed care, sensitibidad sa kultura, at pakikipagtulungan sa komunidad upang matulungan silang bumuo ng katatagan, kakayahang bumangon, at isang bagong araw ng pag-asa nang magkasama.",
     "offerLabel": "Ang Aming Inaalok",
     "offerTitle": "Mga serbisyong binuo sa paligid ng kaligtasan at neutralidad",
     "seeFullServices": "Tingnan ang buong detalye ng serbisyo →",
@@ -183,10 +183,22 @@
     "howLabel": "Paano Ito Gumagana",
     "howTitle": "Mula sa referral hanggang sa dokumentadong pagbisita",
     "process": [
-      { "step": "1. Intake", "detail": "Ibahagi ang inyong court order, DCF referral, o pribadong kahilingan kasama ang batayang impormasyon ng pamilya." },
-      { "step": "2. Pag-iskedyul", "detail": "Ikino-coordinate namin ang neutral na oras at lokasyon para sa visitation o exchange na naaayon sa mga kinakailangan ng korte/DCF." },
-      { "step": "3. Supervised Visit o Exchange", "detail": "Isang sanay at neutral na propesyonal ang nagmamasid sa pagbisita o namamahala sa paglilipat upang mapanatili ang pokus sa kaligtasan at ginhawa ng bata." },
-      { "step": "4. Dokumentasyon", "detail": "Inihahanda ang obhetibong mga tala ng pagbisita at ulat at ginagawang available sa korte, DCF, o mga abogado kung kinakailangan." }
+      {
+        "step": "1. Intake",
+        "detail": "Ibahagi ang inyong court order, DCF referral, o pribadong kahilingan kasama ang batayang impormasyon ng pamilya."
+      },
+      {
+        "step": "2. Pag-iskedyul",
+        "detail": "Ikino-coordinate namin ang neutral na oras at lokasyon para sa visitation o exchange na naaayon sa mga kinakailangan ng korte/DCF."
+      },
+      {
+        "step": "3. Supervised Visit o Exchange",
+        "detail": "Isang sanay at neutral na propesyonal ang nagmamasid sa pagbisita o namamahala sa paglilipat upang mapanatili ang pokus sa kaligtasan at ginhawa ng bata."
+      },
+      {
+        "step": "4. Dokumentasyon",
+        "detail": "Inihahanda ang obhetibong mga tala ng pagbisita at ulat at ginagawang available sa korte, DCF, o mga abogado kung kinakailangan."
+      }
     ],
     "cantCoverTitle": "Hindi kaya ang buong halaga?",
     "cantCoverBody": "Ang aming Family Visitation Sponsorship Fund ay tumutulong sa mga kwalipikadong pamilya na ma-access ang mga serbisyong ito.",
@@ -198,12 +210,12 @@
     "heroLabel": "Tungkol sa Amin",
     "heroTitle": "Isang trauma-informed at neutral na kasosyo para sa mga pamilya sa {serviceArea}",
     "paragraph1": "Ang layunin ng {name} ay magbigay ng neutral, ligtas, at structured na mga serbisyo ng supervised visitation para sa mga pamilya sa {serviceArea}. Naglilingkod kami sa mga pamilyang kasangkot sa sistema ng korte, ang Department of Children and Families (DCF), at pribadong kaso ng custody, na nagbibigay sa mga bata ng ligtas na lugar upang mapanatili o maibalik ang relasyon sa kanilang mga magulang at tagapag-alaga. Ang aming papel ay hindi ang kumampi, kundi ang magmasid, magdokumento, at suportahan ang malusog na pakikipag-ugnayan habang pinananatili ang kapakanan ng mga bata bilang sentro ng bawat pagbisita.",
-    "paragraph2": "Bilang isang propesyonal na Medicaid Provider na may mahigit isang dekada ng karanasan sa larangan ng kalusugang pangkaisipan, dala namin ang isang trauma-informed at nakasentro-sa-pamilyang pamamaraan sa bawat serbisyong inaalok namin. Nauunawaan namin na maraming pamilyang naghahanap ng supervised visitation ay nakaranas na ng krisis, tunggalian, o malalaking pagbabago sa buhay. Dahil dito, gumagamit kami ng malinaw na patnubay, pare-parehong rutina, at kalmadong komunikasyon upang mabawasan ang stress at kalituhan sa panahon ng mga pagbisita.",
+    "paragraph2": "Bilang isang propesyonal na Medicaid Provider na may mahigit isang dekada ng pinagsamang karanasan sa larangan ng kalusugang pangkaisipan, dala namin ang isang trauma-informed at nakasentro-sa-pamilyang pamamaraan sa bawat serbisyong inaalok namin. Nauunawaan namin na maraming pamilyang naghahanap ng supervised visitation ay nakaranas na ng krisis, tunggalian, o malalaking pagbabago sa buhay. Dahil dito, gumagamit kami ng malinaw na patnubay, pare-parehong rutina, at kalmadong komunikasyon upang mabawasan ang stress at kalituhan sa panahon ng mga pagbisita.",
     "paragraph3": "Ang {name} ay umiiral upang ipaglaban ang mga pamilyang nangangailangan sa pamamagitan ng pag-aalok ng de-kalidad na serbisyo ng visitation at pagtulong sa kanila na maugnay sa karagdagang suporta ng komunidad kung angkop. Ang aming layunin ay tulungan ang mga pamilya na lumipat patungo sa katatagan at paggaling, isang pagbisita sa isang pagkakataon, upang maranasan ng mga bata ang isang \"bagong araw\" ng pag-asa, kaligtasan, at koneksyon sa mga taong pinakamahalaga sa kanila.",
     "credentialsLabel": "Mga Kredensyal",
     "credentialsList": [
       "Propesyonal na Medicaid Provider",
-      "Mahigit 10 taong karanasan sa larangan ng kalusugang pangkaisipan",
+      "Mahigit 10 taong pinagsamang karanasan sa larangan ng kalusugang pangkaisipan",
       "Trauma-informed at sensitibo sa kultura na pagsasanay",
       "May karanasan sa mga korte, DCF, at pribadong kaso ng custody"
     ],
@@ -219,9 +231,18 @@
     "intro": "Ang {name} ay isang propesyonal na Medicaid Provider at for-profit na LLC — hindi ito isang rehistradong 501(c)(3) na nonprofit. Ang mga kontribusyon sa Family Visitation Sponsorship Fund ay sumusuporta sa aming misyon sa komunidad na gawing accessible ang mga serbisyo ng supervised visitation at monitored exchange para sa mga kwalipikadong pamilyang hindi kayang bayaran ang buong halaga. Ang mga kontribusyong ito ay <strong>hindi tax-deductible</strong>.",
     "supportsTitle": "Ang sinusuportahan ng inyong kontribusyon",
     "impactTiers": [
-      { "amount": "$49", "impact": "Sumasaklaw sa isang monitored child exchange para sa isang pamilyang nangangailangan." },
-      { "amount": "$90", "impact": "Sumasaklaw sa isang intake session para sa isang magulang o guardian na nagsisimula sa serbisyo." },
-      { "amount": "$120", "impact": "Sumasaklaw sa isang oras ng therapeutic at trauma-informed na supervised visitation." }
+      {
+        "amount": "$49",
+        "impact": "Sumasaklaw sa isang monitored child exchange para sa isang pamilyang nangangailangan."
+      },
+      {
+        "amount": "$90",
+        "impact": "Sumasaklaw sa isang intake session para sa isang magulang o guardian na nagsisimula sa serbisyo."
+      },
+      {
+        "amount": "$120",
+        "impact": "Sumasaklaw sa isang oras ng therapeutic at trauma-informed na supervised visitation."
+      }
     ],
     "squareTitle": "Mag-ambag sa Pamamagitan ng Square",
     "squareBody": "Ang secure checkout ay pinapatakbo ng Square. Ang button na ito ay isang placeholder hanggang sa ma-configure ang live na Square location at access token — tingnan ang <code>.env.example</code>.",
@@ -242,30 +263,71 @@
       {
         "title": "Family Court at Legal Self-Help",
         "resources": [
-          { "name": "Duval County Family Court Services", "detail": "Walk-in na tulong sa family court, 501 W Adams St, 2nd Floor, Jacksonville, FL 32202.", "url": "https://www.duvalclerk.com/departments/civil-court-services/family-law" },
-          { "name": "Florida Courts Family Law Self-Help Forms", "detail": "Libreng mga form ng estado para sa custody, visitation, child support, at domestic violence — magagamit nang walang abogado.", "url": "https://www.flcourts.gov/Services/Family-Courts/self-help-information" },
-          { "name": "Jacksonville Area Legal Aid", "detail": "Libreng tulong legal na sibil para sa mga kwalipikadong pamilya, kabilang ang mga usaping family law.", "phone": "(904) 356-8371", "url": "https://www.jaxlegalaid.org/" }
+          {
+            "name": "Duval County Family Court Services",
+            "detail": "Walk-in na tulong sa family court, 501 W Adams St, 2nd Floor, Jacksonville, FL 32202.",
+            "url": "https://www.duvalclerk.com/departments/civil-court-services/family-law"
+          },
+          {
+            "name": "Florida Courts Family Law Self-Help Forms",
+            "detail": "Libreng mga form ng estado para sa custody, visitation, child support, at domestic violence — magagamit nang walang abogado.",
+            "url": "https://www.flcourts.gov/Services/Family-Courts/self-help-information"
+          },
+          {
+            "name": "Jacksonville Area Legal Aid",
+            "detail": "Libreng tulong legal na sibil para sa mga kwalipikadong pamilya, kabilang ang mga usaping family law.",
+            "phone": "(904) 356-8371",
+            "url": "https://www.jaxlegalaid.org/"
+          }
         ]
       },
       {
         "title": "DCF at Child Welfare",
         "resources": [
-          { "name": "Florida Department of Children and Families (DCF)", "detail": "Child welfare, impormasyon ng dependency case, foster care, at mga serbisyo ng suporta sa pamilya sa buong estado.", "url": "https://www.myflfamilies.com/" },
-          { "name": "Florida Abuse Hotline", "detail": "I-report ang hinihinalang child abuse, neglect, o abandonment — available 24/7.", "phone": "1-800-96-ABUSE (1-800-962-2873)", "url": "https://www.myflfamilies.com/abuse-hotline" }
+          {
+            "name": "Florida Department of Children and Families (DCF)",
+            "detail": "Child welfare, impormasyon ng dependency case, foster care, at mga serbisyo ng suporta sa pamilya sa buong estado.",
+            "url": "https://www.myflfamilies.com/"
+          },
+          {
+            "name": "Florida Abuse Hotline",
+            "detail": "I-report ang hinihinalang child abuse, neglect, o abandonment — available 24/7.",
+            "phone": "1-800-96-ABUSE (1-800-962-2873)",
+            "url": "https://www.myflfamilies.com/abuse-hotline"
+          }
         ]
       },
       {
         "title": "Domestic Violence at Kaligtasan",
         "resources": [
-          { "name": "Hubbard House", "detail": "Domestic violence shelter, safety planning, at advocacy na naglilingkod sa Northeast Florida.", "phone": "(904) 354-3114", "url": "https://www.hubbardhouse.org/" },
-          { "name": "National Domestic Violence Hotline", "detail": "24/7 kumpidensyal na suporta para sa sinumang nakakaranas ng domestic violence.", "phone": "1-800-799-7233", "url": "https://www.thehotline.org/" }
+          {
+            "name": "Hubbard House",
+            "detail": "Domestic violence shelter, safety planning, at advocacy na naglilingkod sa Northeast Florida.",
+            "phone": "(904) 354-3114",
+            "url": "https://www.hubbardhouse.org/"
+          },
+          {
+            "name": "National Domestic Violence Hotline",
+            "detail": "24/7 kumpidensyal na suporta para sa sinumang nakakaranas ng domestic violence.",
+            "phone": "1-800-799-7233",
+            "url": "https://www.thehotline.org/"
+          }
         ]
       },
       {
         "title": "Pagpapayo, Co-Parenting, at Pangunahing Pangangailangan",
         "resources": [
-          { "name": "211 Northeast Florida", "detail": "Libre at kumpidensyal na referral line para sa pabahay, pagkain, pagpapayo, at iba pang serbisyo ng suporta sa pamilya.", "phone": "211", "url": "https://www.211unitedway.org/" },
-          { "name": "Jewish Family & Community Services (JFCS) Jacksonville", "detail": "Pagpapayo at karagdagang mga programa ng supervised visitation at suporta sa pamilya sa Jacksonville.", "url": "https://jfcsjax.org/" }
+          {
+            "name": "211 Northeast Florida",
+            "detail": "Libre at kumpidensyal na referral line para sa pabahay, pagkain, pagpapayo, at iba pang serbisyo ng suporta sa pamilya.",
+            "phone": "211",
+            "url": "https://www.211unitedway.org/"
+          },
+          {
+            "name": "Jewish Family & Community Services (JFCS) Jacksonville",
+            "detail": "Pagpapayo at karagdagang mga programa ng supervised visitation at suporta sa pamilya sa Jacksonville.",
+            "url": "https://jfcsjax.org/"
+          }
         ]
       }
     ],

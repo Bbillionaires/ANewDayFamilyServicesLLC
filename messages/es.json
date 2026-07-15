@@ -19,7 +19,7 @@
     "credentials": "Credenciales",
     "credentialsList": [
       "Proveedor profesional de Medicaid",
-      "Más de 10 años en el campo de la salud mental",
+      "Más de 10 años de experiencia combinada en el campo de la salud mental",
       "Neutral, informado en trauma, con experiencia en tribunales y DCF"
     ],
     "copyright": "Todos los derechos reservados."
@@ -52,31 +52,31 @@
     "items": [
       {
         "name": "Neutralidad",
-        "description": "Ofrezco visitación supervisada justa e imparcial para cada padre, cuidador y agencia, priorizando siempre el interés superior del niño."
+        "description": "Ofrecemos visitación supervisada justa e imparcial para cada padre, cuidador y agencia, priorizando siempre el interés superior del niño."
       },
       {
         "name": "Seguridad",
-        "description": "Creo un ambiente estructurado y seguro donde los niños y las familias pueden interactuar sin miedo, conflicto ni presión."
+        "description": "Creamos un ambiente estructurado y seguro donde los niños y las familias pueden interactuar sin miedo, conflicto ni presión."
       },
       {
         "name": "Respeto",
-        "description": "Trato a cada familia con dignidad, escuchando sin juzgar y honrando el origen y la cultura de cada persona."
+        "description": "Tratamos a cada familia con dignidad, escuchando sin juzgar y honrando el origen y la cultura de cada persona."
       },
       {
         "name": "Defensa",
-        "description": "Defiendo a las familias necesitadas ayudándolas a acceder a servicios, entender los sistemas y sentirse apoyadas durante momentos difíciles."
+        "description": "Defendemos a las familias necesitadas ayudándolas a acceder a servicios, entender los sistemas y sentirse apoyadas durante momentos difíciles."
       },
       {
         "name": "Profesionalismo",
-        "description": "Con más de 10 años en el campo de la salud mental como Proveedor de Medicaid, sigo altos estándares éticos, límites claros y procedimientos consistentes en cada visita."
+        "description": "Con más de 10 años de experiencia combinada en el campo de la salud mental como Proveedor de Medicaid, nuestro equipo sigue altos estándares éticos, límites claros y procedimientos consistentes en cada visita."
       },
       {
         "name": "Compasión",
-        "description": "Trato a cada familia con empatía y paciencia, reconociendo que la visitación supervisada a menudo ocurre durante momentos estresantes y emocionales."
+        "description": "Tratamos a cada familia con empatía y paciencia, reconociendo que la visitación supervisada a menudo ocurre durante momentos estresantes y emocionales."
       },
       {
         "name": "Colaboración",
-        "description": "Trabajo de cerca con los tribunales, el DCF, terapeutas y otros socios comunitarios para que las familias reciban apoyo coordinado y constante."
+        "description": "Trabajamos de cerca con los tribunales, el DCF, terapeutas y otros socios comunitarios para que las familias reciban apoyo coordinado y constante."
       }
     ]
   },
@@ -95,7 +95,7 @@
       {
         "slug": "therapeutic-visitation",
         "name": "Visitación Terapéutica e Informada en Trauma",
-        "summary": "Apoyo informado en trauma para familias que reconstruyen la confianza después de una crisis, separación o un período sin contacto — respaldado por más de una década de experiencia en salud mental."
+        "summary": "Apoyo informado en trauma para familias que reconstruyen la confianza después de una crisis, separación o un período sin contacto — respaldado por más de una década de experiencia combinada en salud mental."
       },
       {
         "slug": "court-documentation",
@@ -122,7 +122,7 @@
       },
       {
         "question": "¿Son un proveedor de Medicaid?",
-        "answer": "Sí. A New Day Family Services LLC es un Proveedor de Medicaid profesional con más de 10 años de experiencia en el campo de la salud mental."
+        "answer": "Sí. A New Day Family Services LLC es un Proveedor de Medicaid profesional con más de 10 años de experiencia combinada en equipo en el campo de la salud mental."
       },
       {
         "question": "¿Cómo empiezo con una referencia u orden de custodia?",
@@ -139,7 +139,7 @@
     "metaDescription": "A New Day Family Services LLC ofrece visitación supervisada segura y neutral, e intercambios de niños monitoreados para familias del noreste de Florida conectadas con los tribunales, el DCF y casos de custodia privados.",
     "trustSignals": [
       "Proveedor profesional de Medicaid",
-      "Más de 10 años en el campo de la salud mental",
+      "Más de 10 años de experiencia combinada en el campo de la salud mental",
       "Neutral hacia cada padre, cuidador y agencia",
       "Cuidado informado en trauma y culturalmente sensible"
     ],
@@ -150,13 +150,13 @@
     "sponsorFamily": "Patrocina a una Familia",
     "statChildrenLabel": "Niños atendidos en el sistema de cuidado fuera del hogar de Florida en el año fiscal 2023–24 — muchos necesitando tiempo seguro y supervisado con un padre o cuidador",
     "statCountiesLabel": "Condados atendidos en {serviceArea}",
-    "statYearsLabel": "Años de experiencia en salud mental informada en trauma",
+    "statYearsLabel": "Años de experiencia combinada en salud mental informada en trauma",
     "statSourcePrefix": "Fuente de la cifra estatal:",
     "statSourceName": "Departamento de Niños y Familias de Florida",
     "statSourceDisclaimer": "Refleja la magnitud de la necesidad a nivel estatal, no un conteo en vivo de los casos de {name}.",
     "missionLabel": "Nuestra Misión",
     "missionTitle": "Protegiendo a los niños. Apoyando relaciones saludables entre padres e hijos.",
-    "missionBody": "En {name}, nuestra misión es ofrecer servicios de visitación supervisada seguros y estructurados en {serviceArea} que se mantengan neutrales e imparciales hacia cualquier padre, cuidador o agencia involucrada. Atendemos a familias relacionadas con los tribunales, el DCF y casos de custodia privados, garantizando un entorno sin conflictos que protege a los niños y apoya relaciones saludables entre padres e hijos. Como Proveedor de Medicaid profesional con más de 10 años de experiencia en el campo de la salud mental, defendemos a las familias necesitadas combinando cuidado informado en trauma, sensibilidad cultural y asociaciones comunitarias para ayudarlas a construir estabilidad, resiliencia y un nuevo día de esperanza juntos.",
+    "missionBody": "En {name}, nuestra misión es ofrecer servicios de visitación supervisada seguros y estructurados en {serviceArea} que se mantengan neutrales e imparciales hacia cualquier padre, cuidador o agencia involucrada. Atendemos a familias relacionadas con los tribunales, el DCF y casos de custodia privados, garantizando un entorno sin conflictos que protege a los niños y apoya relaciones saludables entre padres e hijos. Como Proveedor de Medicaid profesional con más de 10 años de experiencia combinada en equipo en el campo de la salud mental, defendemos a las familias necesitadas combinando cuidado informado en trauma, sensibilidad cultural y asociaciones comunitarias para ayudarlas a construir estabilidad, resiliencia y un nuevo día de esperanza juntos.",
     "offerLabel": "Lo Que Ofrecemos",
     "offerTitle": "Servicios construidos en torno a la seguridad y la neutralidad",
     "seeFullServices": "Ver todos los detalles de servicios →",
@@ -183,10 +183,22 @@
     "howLabel": "Cómo Funciona",
     "howTitle": "Desde la referencia hasta la visita documentada",
     "process": [
-      { "step": "1. Admisión", "detail": "Comparta su orden judicial, referencia del DCF, o solicitud privada junto con información familiar básica." },
-      { "step": "2. Programación", "detail": "Coordinamos un horario y lugar neutral para la visitación o el intercambio que cumpla con los requisitos de la corte/DCF." },
-      { "step": "3. Visita o Intercambio Supervisado", "detail": "Un profesional capacitado y neutral observa la visita o gestiona el traspaso para mantener el enfoque en la seguridad y comodidad del niño." },
-      { "step": "4. Documentación", "detail": "Se preparan notas de visita objetivas e informes y se ponen a disposición de la corte, el DCF, o los abogados según se requiera." }
+      {
+        "step": "1. Admisión",
+        "detail": "Comparta su orden judicial, referencia del DCF, o solicitud privada junto con información familiar básica."
+      },
+      {
+        "step": "2. Programación",
+        "detail": "Coordinamos un horario y lugar neutral para la visitación o el intercambio que cumpla con los requisitos de la corte/DCF."
+      },
+      {
+        "step": "3. Visita o Intercambio Supervisado",
+        "detail": "Un profesional capacitado y neutral observa la visita o gestiona el traspaso para mantener el enfoque en la seguridad y comodidad del niño."
+      },
+      {
+        "step": "4. Documentación",
+        "detail": "Se preparan notas de visita objetivas e informes y se ponen a disposición de la corte, el DCF, o los abogados según se requiera."
+      }
     ],
     "cantCoverTitle": "¿No puede cubrir el costo total?",
     "cantCoverBody": "Nuestro Fondo de Patrocinio de Visitación Familiar ayuda a las familias que califican a acceder a estos servicios.",
@@ -198,12 +210,12 @@
     "heroLabel": "Sobre Nosotros",
     "heroTitle": "Un socio neutral e informado en trauma para las familias de {serviceArea}",
     "paragraph1": "El propósito de {name} es ofrecer servicios de visitación supervisada neutrales, seguros y estructurados para familias en {serviceArea}. Atendemos a familias involucradas con el sistema judicial, el Departamento de Niños y Familias (DCF), y casos de custodia privados, brindando a los niños un lugar seguro para mantener o reconstruir relaciones con sus padres y cuidadores. Nuestro papel no es tomar partido, sino observar, documentar y apoyar interacciones saludables, manteniendo siempre el bienestar de los niños en el centro de cada visita.",
-    "paragraph2": "Como Proveedor de Medicaid profesional con más de una década de experiencia en el campo de la salud mental, aportamos un enfoque informado en trauma y centrado en la familia a cada servicio que ofrecemos. Entendemos que muchas familias que buscan visitación supervisada han vivido crisis, conflictos o grandes cambios de vida. Por eso, usamos pautas claras, rutinas consistentes y comunicación calmada para reducir el estrés y la confusión durante las visitas.",
+    "paragraph2": "Como Proveedor de Medicaid profesional con más de una década de experiencia combinada en el campo de la salud mental, aportamos un enfoque informado en trauma y centrado en la familia a cada servicio que ofrecemos. Entendemos que muchas familias que buscan visitación supervisada han vivido crisis, conflictos o grandes cambios de vida. Por eso, usamos pautas claras, rutinas consistentes y comunicación calmada para reducir el estrés y la confusión durante las visitas.",
     "paragraph3": "{name} existe para defender a las familias necesitadas ofreciendo servicios de visitación de alta calidad y ayudándolas a conectarse con apoyos comunitarios adicionales cuando sea apropiado. Nuestro objetivo es ayudar a las familias a avanzar hacia la estabilidad y la sanación, una visita a la vez, para que los niños puedan experimentar un \"nuevo día\" de esperanza, seguridad y conexión con las personas que más les importan.",
     "credentialsLabel": "Credenciales",
     "credentialsList": [
       "Proveedor profesional de Medicaid",
-      "Más de 10 años de experiencia en el campo de la salud mental",
+      "Más de 10 años de experiencia combinada en equipo en el campo de la salud mental",
       "Práctica informada en trauma y culturalmente sensible",
       "Experiencia con tribunales, el DCF y casos de custodia privados"
     ],
@@ -219,9 +231,18 @@
     "intro": "{name} es un Proveedor de Medicaid profesional y una LLC con fines de lucro — no una organización sin fines de lucro 501(c)(3) registrada. Las contribuciones al Fondo de Patrocinio de Visitación Familiar apoyan nuestra misión comunitaria de hacer que los servicios de visitación supervisada e intercambio monitoreado sean accesibles para las familias que califican y no pueden cubrir el costo total. Estas contribuciones <strong>no son deducibles de impuestos</strong>.",
     "supportsTitle": "Lo que apoya su contribución",
     "impactTiers": [
-      { "amount": "$49", "impact": "Cubre un intercambio de niños monitoreado para una familia necesitada." },
-      { "amount": "$90", "impact": "Cubre una sesión de admisión para un padre o tutor que inicia los servicios." },
-      { "amount": "$120", "impact": "Cubre una hora de visitación supervisada terapéutica e informada en trauma." }
+      {
+        "amount": "$49",
+        "impact": "Cubre un intercambio de niños monitoreado para una familia necesitada."
+      },
+      {
+        "amount": "$90",
+        "impact": "Cubre una sesión de admisión para un padre o tutor que inicia los servicios."
+      },
+      {
+        "amount": "$120",
+        "impact": "Cubre una hora de visitación supervisada terapéutica e informada en trauma."
+      }
     ],
     "squareTitle": "Contribuir vía Square",
     "squareBody": "El pago seguro es procesado por Square. Este botón es un marcador de posición hasta que se configure una ubicación y token de acceso de Square en vivo — vea <code>.env.example</code>.",
@@ -242,30 +263,71 @@
       {
         "title": "Corte de Familia y Autoayuda Legal",
         "resources": [
-          { "name": "Servicios de la Corte de Familia del Condado de Duval", "detail": "Ayuda de corte de familia sin cita previa, 501 W Adams St, 2do Piso, Jacksonville, FL 32202.", "url": "https://www.duvalclerk.com/departments/civil-court-services/family-law" },
-          { "name": "Formularios de Autoayuda de Derecho Familiar de las Cortes de Florida", "detail": "Formularios estatales gratuitos para custodia, visitación, manutención infantil y violencia doméstica — utilizables sin un abogado.", "url": "https://www.flcourts.gov/Services/Family-Courts/self-help-information" },
-          { "name": "Ayuda Legal del Área de Jacksonville", "detail": "Ayuda legal civil gratuita para familias que califican, incluyendo asuntos de derecho familiar.", "phone": "(904) 356-8371", "url": "https://www.jaxlegalaid.org/" }
+          {
+            "name": "Servicios de la Corte de Familia del Condado de Duval",
+            "detail": "Ayuda de corte de familia sin cita previa, 501 W Adams St, 2do Piso, Jacksonville, FL 32202.",
+            "url": "https://www.duvalclerk.com/departments/civil-court-services/family-law"
+          },
+          {
+            "name": "Formularios de Autoayuda de Derecho Familiar de las Cortes de Florida",
+            "detail": "Formularios estatales gratuitos para custodia, visitación, manutención infantil y violencia doméstica — utilizables sin un abogado.",
+            "url": "https://www.flcourts.gov/Services/Family-Courts/self-help-information"
+          },
+          {
+            "name": "Ayuda Legal del Área de Jacksonville",
+            "detail": "Ayuda legal civil gratuita para familias que califican, incluyendo asuntos de derecho familiar.",
+            "phone": "(904) 356-8371",
+            "url": "https://www.jaxlegalaid.org/"
+          }
         ]
       },
       {
         "title": "DCF y Bienestar Infantil",
         "resources": [
-          { "name": "Departamento de Niños y Familias de Florida (DCF)", "detail": "Bienestar infantil, información de casos de dependencia, cuidado de crianza y servicios de apoyo familiar en todo el estado.", "url": "https://www.myflfamilies.com/" },
-          { "name": "Línea Directa de Abuso de Florida", "detail": "Reporte sospechas de abuso, negligencia o abandono infantil — disponible las 24 horas, los 7 días de la semana.", "phone": "1-800-96-ABUSE (1-800-962-2873)", "url": "https://www.myflfamilies.com/abuse-hotline" }
+          {
+            "name": "Departamento de Niños y Familias de Florida (DCF)",
+            "detail": "Bienestar infantil, información de casos de dependencia, cuidado de crianza y servicios de apoyo familiar en todo el estado.",
+            "url": "https://www.myflfamilies.com/"
+          },
+          {
+            "name": "Línea Directa de Abuso de Florida",
+            "detail": "Reporte sospechas de abuso, negligencia o abandono infantil — disponible las 24 horas, los 7 días de la semana.",
+            "phone": "1-800-96-ABUSE (1-800-962-2873)",
+            "url": "https://www.myflfamilies.com/abuse-hotline"
+          }
         ]
       },
       {
         "title": "Violencia Doméstica y Seguridad",
         "resources": [
-          { "name": "Hubbard House", "detail": "Refugio de violencia doméstica, planificación de seguridad y defensa que atiende al noreste de Florida.", "phone": "(904) 354-3114", "url": "https://www.hubbardhouse.org/" },
-          { "name": "Línea Directa Nacional de Violencia Doméstica", "detail": "Apoyo confidencial las 24 horas para cualquier persona que experimente violencia doméstica.", "phone": "1-800-799-7233", "url": "https://www.thehotline.org/" }
+          {
+            "name": "Hubbard House",
+            "detail": "Refugio de violencia doméstica, planificación de seguridad y defensa que atiende al noreste de Florida.",
+            "phone": "(904) 354-3114",
+            "url": "https://www.hubbardhouse.org/"
+          },
+          {
+            "name": "Línea Directa Nacional de Violencia Doméstica",
+            "detail": "Apoyo confidencial las 24 horas para cualquier persona que experimente violencia doméstica.",
+            "phone": "1-800-799-7233",
+            "url": "https://www.thehotline.org/"
+          }
         ]
       },
       {
         "title": "Asesoramiento, Crianza Compartida y Necesidades Básicas",
         "resources": [
-          { "name": "211 Noreste de Florida", "detail": "Línea de referencia gratuita y confidencial para vivienda, alimentos, asesoramiento y otros servicios de apoyo familiar.", "phone": "211", "url": "https://www.211unitedway.org/" },
-          { "name": "Servicios Judíos de Familia y Comunidad (JFCS) Jacksonville", "detail": "Asesoramiento y programas adicionales de visitación supervisada y apoyo familiar en Jacksonville.", "url": "https://jfcsjax.org/" }
+          {
+            "name": "211 Noreste de Florida",
+            "detail": "Línea de referencia gratuita y confidencial para vivienda, alimentos, asesoramiento y otros servicios de apoyo familiar.",
+            "phone": "211",
+            "url": "https://www.211unitedway.org/"
+          },
+          {
+            "name": "Servicios Judíos de Familia y Comunidad (JFCS) Jacksonville",
+            "detail": "Asesoramiento y programas adicionales de visitación supervisada y apoyo familiar en Jacksonville.",
+            "url": "https://jfcsjax.org/"
+          }
         ]
       }
     ],

@@ -104,11 +104,6 @@ export const faqs = [
       "We serve families across Northeast Florida, including Duval, Clay, St. Johns, Nassau, and Baker counties.",
   },
   {
-    question: "Are you a Medicaid provider?",
-    answer:
-      "Yes. A New Day Family Services LLC is a professional Medicaid Provider with over 10 years of combined team experience in the mental health field.",
-  },
-  {
     question: "How do I get started with a referral or custody order?",
     answer:
       "Reach out through our contact information with your court order, DCF referral, or private request, and we'll walk you through intake, scheduling, and documentation requirements.",

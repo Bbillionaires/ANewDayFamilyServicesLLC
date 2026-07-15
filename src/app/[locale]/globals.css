@@ -15,7 +15,7 @@ body {
 }
 
 .btn-primary {
-  @apply inline-flex items-center justify-center rounded-full bg-dawn-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-dawn-500/30 transition hover:bg-dawn-600 focus:outline-none focus:ring-2 focus:ring-dawn-400 focus:ring-offset-2;
+  @apply inline-flex items-center justify-center rounded-full bg-dawn-400 px-6 py-3 text-sm font-semibold text-harbor-950 shadow-lg shadow-dawn-500/30 transition hover:bg-dawn-500 focus:outline-none focus:ring-2 focus:ring-dawn-400 focus:ring-offset-2;
 }
 
 .btn-secondary {

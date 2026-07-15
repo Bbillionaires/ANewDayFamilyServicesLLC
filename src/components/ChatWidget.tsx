@@ -67,7 +67,7 @@ export default function ChatWidget({ locale }: { locale: string }) {
                 key={i}
                 className={
                   m.role === "user"
-                    ? "ml-auto max-w-[85%] rounded-2xl rounded-br-sm bg-dawn-500 px-3 py-2 text-white"
+                    ? "ml-auto max-w-[85%] rounded-2xl rounded-br-sm bg-dawn-400 px-3 py-2 text-harbor-950"
                     : "mr-auto max-w-[85%] rounded-2xl rounded-bl-sm bg-harbor-50 px-3 py-2 text-harbor-900"
                 }
               >

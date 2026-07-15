@@ -49,7 +49,7 @@ export default async function HomePage({
           sizes="100vw"
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-harbor-950/85 via-dawn-700/70 to-dawn-500/50" />
+        <div className="absolute inset-0 bg-gradient-to-br from-harbor-900/85 via-harbor-700/55 to-dawn-400/60" />
         <div className="container-page relative z-10 grid gap-10 py-20 lg:grid-cols-2 lg:items-center lg:py-28">
           <div>
             <p className="section-label text-white/80">

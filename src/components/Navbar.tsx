@@ -21,11 +21,8 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 border-b border-harbor-100 bg-white/90 backdrop-blur">
       <nav className="container-page flex h-16 items-center justify-between" aria-label="Primary">
-        <Link href="/" className="flex items-center gap-2 font-display text-lg font-semibold text-harbor-900">
-          <span className="flex h-9 items-center justify-center rounded-full bg-sunrise px-3 text-sm font-bold tracking-wide text-white">
-            ANDFS
-          </span>
-          <span className="hidden sm:inline">{siteConfig.shortName}</span>
+        <Link href="/" className="font-display text-base font-semibold text-harbor-900 sm:text-lg">
+          {siteConfig.shortName}
         </Link>
 
         <div className="hidden items-center gap-6 md:flex">

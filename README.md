@@ -1,15 +1,17 @@
 # A New Day Family Services LLC — Website
 
-A five-page marketing site for **A New Day Family Services LLC**, a professional Medicaid
-Provider offering supervised visitation, monitored child exchanges, and therapeutic
-trauma-informed visitation services across Northeast Florida (Duval, Clay, St. Johns, Nassau,
-and Baker counties).
+A marketing site for **A New Day Family Services LLC**, a professional Medicaid Provider
+offering supervised visitation, monitored child exchanges, and therapeutic trauma-informed
+visitation services across Northeast Florida (Duval, Clay, St. Johns, Nassau, and Baker
+counties).
 
 ## Pages
 
 - `/` — Landing page: mission, trust signals, services overview, core values, FAQ
 - `/services` — Full service breakdown, referral sources, intake-to-documentation process
 - `/about` — Mission, purpose, credentials, and the seven core values
+- `/careers` — Open positions pitch + an application form that emails the applicant's details
+  (and resume, if attached) straight to the team
 - `/donate` — Family Visitation Sponsorship Fund (explicitly **not** tax-deductible — this is an
   LLC, not a 501(c)(3)) with a Square checkout placeholder
 - `/community-resources` — Curated, independently-verified directory of Northeast Florida
@@ -58,10 +60,25 @@ before the key is configured.
   hardcoded as the default in `src/lib/siteConfig.ts`. Override with `NEXT_PUBLIC_CONTACT_PHONE` /
   `NEXT_PUBLIC_CONTACT_EMAIL` only if a specific deployment needs different values.
 - `ANTHROPIC_API_KEY` — required for the live AI assistant
+- `RESEND_API_KEY` — required for the Careers page application form to actually send email.
+  You'll also need to verify a sending domain in Resend and set `CAREERS_FROM_EMAIL` to an
+  address on that domain (Resend rejects unverified senders). Applications go to
+  `CAREERS_NOTIFICATION_EMAIL`, which defaults to the site's main contact email.
 - `SQUARE_ACCESS_TOKEN` / `SQUARE_LOCATION_ID` — the Donate page's Square button is disabled
   until real Square checkout is wired up
 - Add a real `og-image` and favicon to `public/` (see `src/app/layout.tsx` for where to
   reference them)
+
+## Careers application form
+
+`/careers` (`src/app/[locale]/careers/page.tsx`) pitches the team and embeds
+`src/components/CareerApplicationForm.tsx`, which posts to `/api/careers`
+(`src/app/api/careers/route.ts`). The route validates the submission server-side, then emails
+the applicant's name, contact info, position of interest, message, and resume (as an attachment,
+PDF/Word, 5MB max) via [Resend](https://resend.com) — with the applicant's address set as
+`replyTo`, so replying to the notification email goes straight to them. **Without
+`RESEND_API_KEY` set, it tells applicants to email their resume directly instead of erroring** —
+same fallback pattern as the AI assistant, safe to deploy before the key is configured.
 
 ## Known item: Next.js version
 

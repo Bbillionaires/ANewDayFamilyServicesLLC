@@ -4,6 +4,7 @@
     "services": "Mga Serbisyo",
     "about": "Tungkol sa Amin",
     "communityResources": "Mga Mapagkukunan ng Komunidad",
+    "careers": "Mga Trabaho",
     "donate": "Mag-donate",
     "openMenu": "Buksan ang menu",
     "closeMenu": "Isara ang menu"
@@ -328,5 +329,44 @@
       }
     ],
     "emergencyNotice": "Kung ikaw o ang isang bata ay nasa agarang panganib, tumawag sa 911. Ang direktoryong ito ay para sa pangkalahatang impormasyon lamang at hindi legal na payo."
+  },
+  "CareersPage": {
+    "metaTitle": "Mga Trabaho | Sumali sa Aming Koponan",
+    "metaDescription": "Tuklasin ang mga pagkakataon sa trabaho sa A New Day Family Services LLC at mag-apply upang sumali sa aming koponan na sumusuporta sa mga pamilya sa buong Northeast Florida.",
+    "heroLabel": "Mga Trabaho",
+    "heroTitle": "Sumali sa aming koponan",
+    "intro": "Lagi kaming naghahanap upang palawakin ang aming network ng mga mahabagin at may kaalaman sa trauma na propesyonal na sumusuporta sa mga pamilya sa {serviceArea}. Sabihin sa amin ang tungkol sa iyo sa ibaba at makikipag-ugnayan ang aming koponan kung mayroong bagay na tugma.",
+    "whyTitle": "Bakit magtrabaho sa amin",
+    "whyItems": [
+      "Misyon-driven na trabaho na direktang sumusuporta sa mga bata at pamilya",
+      "Patuloy na pagsasanay at isang trauma-informed, team-based na pamamaraan",
+      "Isang collaborative na kultura na nagtatrabaho kasama ang mga korte, DCF, at kasosyo sa komunidad",
+      "Flexible na iskedyul na binuo sa paligid ng mga pamilyang aming pinagsisilbihan"
+    ],
+    "formTitle": "Application",
+    "nameLabel": "Buong pangalan",
+    "emailLabel": "Email",
+    "phoneLabel": "Telepono",
+    "positionLabel": "Posisyong interesado",
+    "positionPlaceholder": "Pumili ng posisyon",
+    "positionOptions": [
+      "Supervised Visitation Monitor",
+      "Case Coordinator / Intake",
+      "Administrative Support",
+      "Iba pa"
+    ],
+    "resumeLabel": "Resume / CV (PDF o Word, opsyonal)",
+    "messageLabel": "Bakit ka interesadong sumali sa aming koponan?",
+    "submit": "Isumite ang Application",
+    "submitting": "Isinusumite…",
+    "requiredNote": "Ang mga field na may * ay kinakailangan.",
+    "consentNote": "Sa pagsumite, sumasang-ayon ka na gamitin ng A New Day Family Services LLC ang impormasyong ito upang isaalang-alang ang iyong application.",
+    "successMessage": "Salamat sa pag-apply! Naipadala na ang iyong application sa aming koponan, at makikipag-ugnayan kami kung mayroong bagay na tugma.",
+    "errorMessage": "Nagkaroon ng problema sa pagpapadala ng iyong application. Pakisubukang muli, o mag-email sa amin nang direkta.",
+    "notConfiguredMessage": "Hindi pa lubos na naka-set up ang mga online application sa site na ito. Mangyaring i-email ang iyong resume at isang maikling tala nang direkta sa",
+    "invalidEmailMessage": "Mangyaring maglagay ng wastong email address.",
+    "missingFieldsMessage": "Mangyaring punan ang iyong pangalan, email, at maikling mensahe bago isumite.",
+    "resumeTooLargeMessage": "Masyadong malaki ang resume file na iyon — panatilihin itong mas mababa sa 5MB.",
+    "resumeInvalidTypeMessage": "Mangyaring mag-upload ng PDF o Word document para sa iyong resume."
   }
 }

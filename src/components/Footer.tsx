@@ -20,6 +20,7 @@ export default function Footer() {
             <li><Link href="/services" className="hover:text-dawn-300">{tNav("services")}</Link></li>
             <li><Link href="/about" className="hover:text-dawn-300">{tNav("about")}</Link></li>
             <li><Link href="/community-resources" className="hover:text-dawn-300">{tNav("communityResources")}</Link></li>
+            <li><Link href="/careers" className="hover:text-dawn-300">{tNav("careers")}</Link></li>
             <li><Link href="/donate" className="hover:text-dawn-300">{tNav("donate")}</Link></li>
           </ul>
         </div>

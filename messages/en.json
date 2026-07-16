@@ -4,6 +4,7 @@
     "services": "Services",
     "about": "About Us",
     "communityResources": "Community Resources",
+    "careers": "Careers",
     "donate": "Donate",
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
@@ -328,5 +329,44 @@
       }
     ],
     "emergencyNotice": "If you or a child is in immediate danger, call 911. This directory is for general information only and is not legal advice."
+  },
+  "CareersPage": {
+    "metaTitle": "Careers | Join Our Team",
+    "metaDescription": "Explore career opportunities with A New Day Family Services LLC and apply to join our team supporting families across Northeast Florida.",
+    "heroLabel": "Careers",
+    "heroTitle": "Join our team",
+    "intro": "We're always looking to grow our network of compassionate, trauma-informed professionals supporting families across {serviceArea}. Tell us a bit about yourself below and our team will be in touch if there's a fit.",
+    "whyTitle": "Why work with us",
+    "whyItems": [
+      "Mission-driven work that directly supports children and families",
+      "Ongoing training and a trauma-informed, team-based approach",
+      "A collaborative culture working alongside courts, DCF, and community partners",
+      "Flexible scheduling built around the families we serve"
+    ],
+    "formTitle": "Application",
+    "nameLabel": "Full name",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "positionLabel": "Position of interest",
+    "positionPlaceholder": "Select a position",
+    "positionOptions": [
+      "Supervised Visitation Monitor",
+      "Case Coordinator / Intake",
+      "Administrative Support",
+      "Other"
+    ],
+    "resumeLabel": "Resume / CV (PDF or Word, optional)",
+    "messageLabel": "Why are you interested in joining our team?",
+    "submit": "Submit Application",
+    "submitting": "Submitting…",
+    "requiredNote": "Fields marked * are required.",
+    "consentNote": "By submitting, you consent to A New Day Family Services LLC using this information to consider your application.",
+    "successMessage": "Thank you for applying! Your application has been sent to our team, and we'll be in touch if there's a fit.",
+    "errorMessage": "Something went wrong sending your application. Please try again, or email us directly.",
+    "notConfiguredMessage": "Online applications aren't fully set up on this deployment yet. Please email your resume and a short note directly to",
+    "invalidEmailMessage": "Please enter a valid email address.",
+    "missingFieldsMessage": "Please fill in your name, email, and a short message before submitting.",
+    "resumeTooLargeMessage": "That resume file is too large — please keep it under 5MB.",
+    "resumeInvalidTypeMessage": "Please upload a PDF or Word document for your resume."
   }
 }

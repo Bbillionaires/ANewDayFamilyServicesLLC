@@ -4,6 +4,7 @@
     "services": "Servicios",
     "about": "Sobre Nosotros",
     "communityResources": "Recursos Comunitarios",
+    "careers": "Empleo",
     "donate": "Donar",
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú"
@@ -328,5 +329,44 @@
       }
     ],
     "emergencyNotice": "Si usted o un niño está en peligro inmediato, llame al 911. Este directorio es solo para información general y no constituye asesoría legal."
+  },
+  "CareersPage": {
+    "metaTitle": "Empleo | Únase a Nuestro Equipo",
+    "metaDescription": "Explore oportunidades de empleo con A New Day Family Services LLC y postúlese para unirse a nuestro equipo que apoya a familias en todo el noreste de Florida.",
+    "heroLabel": "Empleo",
+    "heroTitle": "Únase a nuestro equipo",
+    "intro": "Siempre estamos buscando ampliar nuestra red de profesionales compasivos e informados en trauma que apoyan a familias en {serviceArea}. Cuéntenos un poco sobre usted a continuación y nuestro equipo se pondrá en contacto si hay una buena opción.",
+    "whyTitle": "Por qué trabajar con nosotros",
+    "whyItems": [
+      "Trabajo impulsado por una misión que apoya directamente a niños y familias",
+      "Capacitación continua y un enfoque informado en trauma y basado en equipo",
+      "Una cultura colaborativa que trabaja junto a tribunales, el DCF y socios comunitarios",
+      "Horarios flexibles adaptados a las familias a las que servimos"
+    ],
+    "formTitle": "Solicitud",
+    "nameLabel": "Nombre completo",
+    "emailLabel": "Correo electrónico",
+    "phoneLabel": "Teléfono",
+    "positionLabel": "Puesto de interés",
+    "positionPlaceholder": "Seleccione un puesto",
+    "positionOptions": [
+      "Supervisor de Visitación Supervisada",
+      "Coordinador de Casos / Admisión",
+      "Apoyo Administrativo",
+      "Otro"
+    ],
+    "resumeLabel": "Currículum / CV (PDF o Word, opcional)",
+    "messageLabel": "¿Por qué le interesa unirse a nuestro equipo?",
+    "submit": "Enviar Solicitud",
+    "submitting": "Enviando…",
+    "requiredNote": "Los campos marcados con * son obligatorios.",
+    "consentNote": "Al enviar, usted consiente que A New Day Family Services LLC use esta información para considerar su solicitud.",
+    "successMessage": "¡Gracias por postularse! Su solicitud ha sido enviada a nuestro equipo, y nos pondremos en contacto si hay una buena opción.",
+    "errorMessage": "Algo salió mal al enviar su solicitud. Inténtelo de nuevo, o envíenos un correo electrónico directamente.",
+    "notConfiguredMessage": "Las solicitudes en línea aún no están completamente configuradas en este sitio. Por favor envíe su currículum y una breve nota directamente a",
+    "invalidEmailMessage": "Por favor ingrese un correo electrónico válido.",
+    "missingFieldsMessage": "Por favor complete su nombre, correo electrónico y un breve mensaje antes de enviar.",
+    "resumeTooLargeMessage": "Ese archivo de currículum es demasiado grande — manténgalo por debajo de 5MB.",
+    "resumeInvalidTypeMessage": "Por favor suba un documento PDF o Word para su currículum."
   }
 }

@@ -19,7 +19,6 @@
     "emailLabel": "Email",
     "credentials": "Credentials",
     "credentialsList": [
-      "Professional Medicaid Provider",
       "10+ years of combined experience in the mental health field",
       "Neutral, trauma-informed, court & DCF experienced"
     ],
@@ -69,7 +68,7 @@
       },
       {
         "name": "Professionalism",
-        "description": "With more than 10 years of combined experience in the mental health field as a Medicaid Provider, our team follows high ethical standards, clear boundaries, and consistent procedures in every visit."
+        "description": "With more than 10 years of combined experience in the mental health field, our team follows high ethical standards, clear boundaries, and consistent procedures in every visit."
       },
       {
         "name": "Compassion",
@@ -135,7 +134,7 @@
     "metaTitle": "Supervised Visitation & Monitored Exchanges in Northeast Florida",
     "metaDescription": "A New Day Family Services LLC provides safe, neutral supervised visitation and monitored child exchanges for Northeast Florida families connected to the courts, DCF, and private custody cases.",
     "trustSignals": [
-      "Professional Medicaid Provider",
+      "Court-ordered, DCF-referred & private cases welcome",
       "10+ years of combined experience in the mental health field",
       "Neutral toward every parent, caregiver & agency",
       "Trauma-informed & culturally sensitive care"
@@ -153,7 +152,7 @@
     "statSourceDisclaimer": "Reflects the scale of need statewide, not a live count of {name} cases.",
     "missionLabel": "Our Mission",
     "missionTitle": "Protecting children. Supporting healthy parent-child relationships.",
-    "missionBody": "At {name}, our mission is to provide safe, structured supervised visitation services across {serviceArea} that remain neutral and unbiased toward any parent, caregiver, or agency involved. We serve families engaged with the courts, DCF, and private custody cases, ensuring a conflict-free environment that protects children and supports healthy parent-child relationships. As a professional Medicaid Provider with over 10 years of combined experience in the mental health field, we advocate for families in need by combining trauma-informed care, cultural sensitivity, and community partnerships to help them build stability, resilience, and a new day of hope together.",
+    "missionBody": "At {name}, our mission is to provide safe, structured supervised visitation services across {serviceArea} that remain neutral and unbiased toward any parent, caregiver, or agency involved. We serve families engaged with the courts, DCF, and private custody cases, ensuring a conflict-free environment that protects children and supports healthy parent-child relationships. With over 10 years of combined experience in the mental health field, our team advocates for families in need by combining trauma-informed care, cultural sensitivity, and community partnerships to help them build stability, resilience, and a new day of hope together.",
     "offerLabel": "What We Offer",
     "offerTitle": "Services built around safety and neutrality",
     "seeFullServices": "See full service details →",
@@ -203,15 +202,14 @@
   },
   "AboutPage": {
     "metaTitle": "About Us | Our Mission, Purpose & Core Values",
-    "metaDescription": "Learn about A New Day Family Services LLC's mission, purpose, and core values — a trauma-informed, neutral Medicaid Provider serving Northeast Florida families.",
+    "metaDescription": "Learn about A New Day Family Services LLC's mission, purpose, and core values — a trauma-informed, neutral supervised visitation provider serving Northeast Florida families.",
     "heroLabel": "About Us",
     "heroTitle": "A trauma-informed, neutral partner for {serviceArea} families",
     "paragraph1": "The purpose of {name} is to provide neutral, safe, and structured supervised visitation services for families across {serviceArea}. We serve families involved with the court system, the Department of Children and Families (DCF), and private custody cases, giving children a secure place to maintain or rebuild relationships with their parents and caregivers. Our role is not to take sides, but to observe, document, and support healthy interactions while keeping children's wellbeing at the center of every visit.",
-    "paragraph2": "As a professional Medicaid Provider with more than a decade of combined experience in the mental health field, we bring a trauma-informed, family-focused approach to every service we offer. We understand that many families seeking supervised visitation have lived through crisis, conflict, or major life changes. Because of this, we use clear guidelines, consistent routines, and calm communication to reduce stress and confusion during visits.",
+    "paragraph2": "Our team brings more than a decade of combined experience in the mental health field, along with a trauma-informed, family-focused approach, to every service we offer. We understand that many families seeking supervised visitation have lived through crisis, conflict, or major life changes. Because of this, we use clear guidelines, consistent routines, and calm communication to reduce stress and confusion during visits.",
     "paragraph3": "{name} exists to advocate for families in need by offering high-quality visitation services and helping connect them to additional community supports when appropriate. Our goal is to help families move toward stability and healing, one visit at a time, so that children can experience a \"new day\" of hope, safety, and connection with the people who matter most to them.",
     "credentialsLabel": "Credentials",
     "credentialsList": [
-      "Professional Medicaid Provider",
       "10+ years of combined team experience in the mental health field",
       "Trauma-informed, culturally sensitive practice",
       "Experience with courts, DCF, and private custody cases"
@@ -225,7 +223,7 @@
     "metaDescription": "Support the Family Visitation Sponsorship Fund and help families across Northeast Florida access supervised visitation services they couldn't otherwise afford.",
     "heroLabel": "Family Visitation Sponsorship Fund",
     "heroTitle": "Help a family get their new day",
-    "intro": "{name} is a professional Medicaid Provider and for-profit LLC — not a registered 501(c)(3) nonprofit. Contributions to the Family Visitation Sponsorship Fund support our community mission of making supervised visitation and monitored exchange services accessible to qualifying families who cannot cover the full cost. These contributions are <strong>not tax-deductible</strong>.",
+    "intro": "{name} is a for-profit LLC — not a registered 501(c)(3) nonprofit. Contributions to the Family Visitation Sponsorship Fund support our community mission of making supervised visitation and monitored exchange services accessible to qualifying families who cannot cover the full cost. These contributions are <strong>not tax-deductible</strong>.",
     "supportsTitle": "What your contribution supports",
     "impactTiers": [
       {

@@ -42,7 +42,7 @@ export const coreValues = [
   {
     name: "Professionalism",
     description:
-      "With more than 10 years of combined experience in the mental health field as a Medicaid Provider, our team follows high ethical standards, clear boundaries, and consistent procedures in every visit.",
+      "With more than 10 years of combined experience in the mental health field, our team follows high ethical standards, clear boundaries, and consistent procedures in every visit.",
   },
   {
     name: "Compassion",

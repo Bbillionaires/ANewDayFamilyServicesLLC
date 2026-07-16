@@ -19,7 +19,6 @@
     "emailLabel": "Correo electrónico",
     "credentials": "Credenciales",
     "credentialsList": [
-      "Proveedor profesional de Medicaid",
       "Más de 10 años de experiencia combinada en el campo de la salud mental",
       "Neutral, informado en trauma, con experiencia en tribunales y DCF"
     ],
@@ -69,7 +68,7 @@
       },
       {
         "name": "Profesionalismo",
-        "description": "Con más de 10 años de experiencia combinada en el campo de la salud mental como Proveedor de Medicaid, nuestro equipo sigue altos estándares éticos, límites claros y procedimientos consistentes en cada visita."
+        "description": "Con más de 10 años de experiencia combinada en el campo de la salud mental, nuestro equipo sigue altos estándares éticos, límites claros y procedimientos consistentes en cada visita."
       },
       {
         "name": "Compasión",
@@ -135,7 +134,7 @@
     "metaTitle": "Visitación Supervisada e Intercambios Monitoreados en el Noreste de Florida",
     "metaDescription": "A New Day Family Services LLC ofrece visitación supervisada segura y neutral, e intercambios de niños monitoreados para familias del noreste de Florida conectadas con los tribunales, el DCF y casos de custodia privados.",
     "trustSignals": [
-      "Proveedor profesional de Medicaid",
+      "Casos de la corte, referidos del DCF y privados son bienvenidos",
       "Más de 10 años de experiencia combinada en el campo de la salud mental",
       "Neutral hacia cada padre, cuidador y agencia",
       "Cuidado informado en trauma y culturalmente sensible"
@@ -153,7 +152,7 @@
     "statSourceDisclaimer": "Refleja la magnitud de la necesidad a nivel estatal, no un conteo en vivo de los casos de {name}.",
     "missionLabel": "Nuestra Misión",
     "missionTitle": "Protegiendo a los niños. Apoyando relaciones saludables entre padres e hijos.",
-    "missionBody": "En {name}, nuestra misión es ofrecer servicios de visitación supervisada seguros y estructurados en {serviceArea} que se mantengan neutrales e imparciales hacia cualquier padre, cuidador o agencia involucrada. Atendemos a familias relacionadas con los tribunales, el DCF y casos de custodia privados, garantizando un entorno sin conflictos que protege a los niños y apoya relaciones saludables entre padres e hijos. Como Proveedor de Medicaid profesional con más de 10 años de experiencia combinada en equipo en el campo de la salud mental, defendemos a las familias necesitadas combinando cuidado informado en trauma, sensibilidad cultural y asociaciones comunitarias para ayudarlas a construir estabilidad, resiliencia y un nuevo día de esperanza juntos.",
+    "missionBody": "En {name}, nuestra misión es ofrecer servicios de visitación supervisada seguros y estructurados en {serviceArea} que se mantengan neutrales e imparciales hacia cualquier padre, cuidador o agencia involucrada. Atendemos a familias relacionadas con los tribunales, el DCF y casos de custodia privados, garantizando un entorno sin conflictos que protege a los niños y apoya relaciones saludables entre padres e hijos. Con más de 10 años de experiencia combinada en el campo de la salud mental, nuestro equipo defiende a las familias necesitadas combinando cuidado informado en trauma, sensibilidad cultural y asociaciones comunitarias para ayudarlas a construir estabilidad, resiliencia y un nuevo día de esperanza juntos.",
     "offerLabel": "Lo Que Ofrecemos",
     "offerTitle": "Servicios construidos en torno a la seguridad y la neutralidad",
     "seeFullServices": "Ver todos los detalles de servicios →",
@@ -203,15 +202,14 @@
   },
   "AboutPage": {
     "metaTitle": "Sobre Nosotros | Nuestra Misión, Propósito y Valores Fundamentales",
-    "metaDescription": "Conozca la misión, el propósito y los valores fundamentales de A New Day Family Services LLC — un Proveedor de Medicaid neutral e informado en trauma que atiende a familias del noreste de Florida.",
+    "metaDescription": "Conozca la misión, el propósito y los valores fundamentales de A New Day Family Services LLC — un proveedor de visitación supervisada neutral e informado en trauma que atiende a familias del noreste de Florida.",
     "heroLabel": "Sobre Nosotros",
     "heroTitle": "Un socio neutral e informado en trauma para las familias de {serviceArea}",
     "paragraph1": "El propósito de {name} es ofrecer servicios de visitación supervisada neutrales, seguros y estructurados para familias en {serviceArea}. Atendemos a familias involucradas con el sistema judicial, el Departamento de Niños y Familias (DCF), y casos de custodia privados, brindando a los niños un lugar seguro para mantener o reconstruir relaciones con sus padres y cuidadores. Nuestro papel no es tomar partido, sino observar, documentar y apoyar interacciones saludables, manteniendo siempre el bienestar de los niños en el centro de cada visita.",
-    "paragraph2": "Como Proveedor de Medicaid profesional con más de una década de experiencia combinada en el campo de la salud mental, aportamos un enfoque informado en trauma y centrado en la familia a cada servicio que ofrecemos. Entendemos que muchas familias que buscan visitación supervisada han vivido crisis, conflictos o grandes cambios de vida. Por eso, usamos pautas claras, rutinas consistentes y comunicación calmada para reducir el estrés y la confusión durante las visitas.",
+    "paragraph2": "Nuestro equipo aporta más de una década de experiencia combinada en el campo de la salud mental, junto con un enfoque informado en trauma y centrado en la familia, a cada servicio que ofrecemos. Entendemos que muchas familias que buscan visitación supervisada han vivido crisis, conflictos o grandes cambios de vida. Por eso, usamos pautas claras, rutinas consistentes y comunicación calmada para reducir el estrés y la confusión durante las visitas.",
     "paragraph3": "{name} existe para defender a las familias necesitadas ofreciendo servicios de visitación de alta calidad y ayudándolas a conectarse con apoyos comunitarios adicionales cuando sea apropiado. Nuestro objetivo es ayudar a las familias a avanzar hacia la estabilidad y la sanación, una visita a la vez, para que los niños puedan experimentar un \"nuevo día\" de esperanza, seguridad y conexión con las personas que más les importan.",
     "credentialsLabel": "Credenciales",
     "credentialsList": [
-      "Proveedor profesional de Medicaid",
       "Más de 10 años de experiencia combinada en equipo en el campo de la salud mental",
       "Práctica informada en trauma y culturalmente sensible",
       "Experiencia con tribunales, el DCF y casos de custodia privados"
@@ -225,7 +223,7 @@
     "metaDescription": "Apoye el Fondo de Patrocinio de Visitación Familiar y ayude a las familias del noreste de Florida a acceder a servicios de visitación supervisada que de otro modo no podrían pagar.",
     "heroLabel": "Fondo de Patrocinio de Visitación Familiar",
     "heroTitle": "Ayude a una familia a tener su nuevo día",
-    "intro": "{name} es un Proveedor de Medicaid profesional y una LLC con fines de lucro — no una organización sin fines de lucro 501(c)(3) registrada. Las contribuciones al Fondo de Patrocinio de Visitación Familiar apoyan nuestra misión comunitaria de hacer que los servicios de visitación supervisada e intercambio monitoreado sean accesibles para las familias que califican y no pueden cubrir el costo total. Estas contribuciones <strong>no son deducibles de impuestos</strong>.",
+    "intro": "{name} es una LLC con fines de lucro — no una organización sin fines de lucro 501(c)(3) registrada. Las contribuciones al Fondo de Patrocinio de Visitación Familiar apoyan nuestra misión comunitaria de hacer que los servicios de visitación supervisada e intercambio monitoreado sean accesibles para las familias que califican y no pueden cubrir el costo total. Estas contribuciones <strong>no son deducibles de impuestos</strong>.",
     "supportsTitle": "Lo que apoya su contribución",
     "impactTiers": [
       {

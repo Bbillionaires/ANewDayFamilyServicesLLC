@@ -19,7 +19,6 @@
     "emailLabel": "Email",
     "credentials": "Mga Kredensyal",
     "credentialsList": [
-      "Propesyonal na Medicaid Provider",
       "Mahigit 10 taong pinagsamang karanasan sa larangan ng kalusugang pangkaisipan",
       "Neutral, may kaalaman sa trauma, may karanasan sa korte at DCF"
     ],
@@ -69,7 +68,7 @@
       },
       {
         "name": "Propesyonalismo",
-        "description": "Bilang isang Medicaid Provider na may mahigit 10 taong pinagsamang karanasan sa larangan ng kalusugang pangkaisipan, sinusunod ng aming koponan ang mataas na pamantayang etikal, malinaw na hangganan, at pare-parehong pamamaraan sa bawat pagbisita."
+        "description": "Sa mahigit 10 taong pinagsamang karanasan sa larangan ng kalusugang pangkaisipan, sinusunod ng aming koponan ang mataas na pamantayang etikal, malinaw na hangganan, at pare-parehong pamamaraan sa bawat pagbisita."
       },
       {
         "name": "Pagmamalasakit",
@@ -135,7 +134,7 @@
     "metaTitle": "Supervised Visitation at Monitored Exchanges sa Northeast Florida",
     "metaDescription": "Ang A New Day Family Services LLC ay nagbibigay ng ligtas at neutral na supervised visitation at monitored child exchanges para sa mga pamilya sa Northeast Florida na konektado sa mga korte, DCF, at pribadong kaso ng custody.",
     "trustSignals": [
-      "Propesyonal na Medicaid Provider",
+      "Court order, DCF referral, at pribadong kaso ay malugod na tinatanggap",
       "Mahigit 10 taong pinagsamang karanasan sa larangan ng kalusugang pangkaisipan",
       "Neutral sa bawat magulang, tagapag-alaga, at ahensya",
       "May kaalaman sa trauma at sensitibo sa kultura"
@@ -153,7 +152,7 @@
     "statSourceDisclaimer": "Ipinapakita nito ang saklaw ng pangangailangan sa buong estado, hindi ang live na bilang ng mga kaso ng {name}.",
     "missionLabel": "Ang Aming Misyon",
     "missionTitle": "Pinoprotektahan ang mga bata. Sinusuportahan ang malusog na relasyon ng magulang at anak.",
-    "missionBody": "Sa {name}, ang aming misyon ay magbigay ng ligtas at structured na serbisyo ng supervised visitation sa {serviceArea} na nananatiling neutral at walang kinikilingan sa kahit anong magulang, tagapag-alaga, o ahensyang kasangkot. Naglilingkod kami sa mga pamilyang konektado sa mga korte, DCF, at pribadong kaso ng custody, tinitiyak ang isang kapaligirang walang tunggalian na nagpoprotekta sa mga bata at sumusuporta sa malusog na relasyon ng magulang at anak. Bilang isang propesyonal na Medicaid Provider na may mahigit 10 taong pinagsamang karanasan sa larangan ng kalusugang pangkaisipan, ipinaglalaban namin ang mga pamilyang nangangailangan sa pamamagitan ng pagsasama ng trauma-informed care, sensitibidad sa kultura, at pakikipagtulungan sa komunidad upang matulungan silang bumuo ng katatagan, kakayahang bumangon, at isang bagong araw ng pag-asa nang magkasama.",
+    "missionBody": "Sa {name}, ang aming misyon ay magbigay ng ligtas at structured na serbisyo ng supervised visitation sa {serviceArea} na nananatiling neutral at walang kinikilingan sa kahit anong magulang, tagapag-alaga, o ahensyang kasangkot. Naglilingkod kami sa mga pamilyang konektado sa mga korte, DCF, at pribadong kaso ng custody, tinitiyak ang isang kapaligirang walang tunggalian na nagpoprotekta sa mga bata at sumusuporta sa malusog na relasyon ng magulang at anak. Sa mahigit 10 taong pinagsamang karanasan sa larangan ng kalusugang pangkaisipan, ipinaglalaban ng aming koponan ang mga pamilyang nangangailangan sa pamamagitan ng pagsasama ng trauma-informed care, sensitibidad sa kultura, at pakikipagtulungan sa komunidad upang matulungan silang bumuo ng katatagan, kakayahang bumangon, at isang bagong araw ng pag-asa nang magkasama.",
     "offerLabel": "Ang Aming Inaalok",
     "offerTitle": "Mga serbisyong binuo sa paligid ng kaligtasan at neutralidad",
     "seeFullServices": "Tingnan ang buong detalye ng serbisyo →",
@@ -203,15 +202,14 @@
   },
   "AboutPage": {
     "metaTitle": "Tungkol sa Amin | Ang Aming Misyon, Layunin, at Pangunahing Halaga",
-    "metaDescription": "Alamin ang misyon, layunin, at pangunahing halaga ng A New Day Family Services LLC — isang neutral at trauma-informed na Medicaid Provider na naglilingkod sa mga pamilya sa Northeast Florida.",
+    "metaDescription": "Alamin ang misyon, layunin, at pangunahing halaga ng A New Day Family Services LLC — isang neutral at trauma-informed na provider ng supervised visitation na naglilingkod sa mga pamilya sa Northeast Florida.",
     "heroLabel": "Tungkol sa Amin",
     "heroTitle": "Isang trauma-informed at neutral na kasosyo para sa mga pamilya sa {serviceArea}",
     "paragraph1": "Ang layunin ng {name} ay magbigay ng neutral, ligtas, at structured na mga serbisyo ng supervised visitation para sa mga pamilya sa {serviceArea}. Naglilingkod kami sa mga pamilyang kasangkot sa sistema ng korte, ang Department of Children and Families (DCF), at pribadong kaso ng custody, na nagbibigay sa mga bata ng ligtas na lugar upang mapanatili o maibalik ang relasyon sa kanilang mga magulang at tagapag-alaga. Ang aming papel ay hindi ang kumampi, kundi ang magmasid, magdokumento, at suportahan ang malusog na pakikipag-ugnayan habang pinananatili ang kapakanan ng mga bata bilang sentro ng bawat pagbisita.",
-    "paragraph2": "Bilang isang propesyonal na Medicaid Provider na may mahigit isang dekada ng pinagsamang karanasan sa larangan ng kalusugang pangkaisipan, dala namin ang isang trauma-informed at nakasentro-sa-pamilyang pamamaraan sa bawat serbisyong inaalok namin. Nauunawaan namin na maraming pamilyang naghahanap ng supervised visitation ay nakaranas na ng krisis, tunggalian, o malalaking pagbabago sa buhay. Dahil dito, gumagamit kami ng malinaw na patnubay, pare-parehong rutina, at kalmadong komunikasyon upang mabawasan ang stress at kalituhan sa panahon ng mga pagbisita.",
+    "paragraph2": "Dala ng aming koponan ang mahigit isang dekada ng pinagsamang karanasan sa larangan ng kalusugang pangkaisipan, kasama ang isang trauma-informed at nakasentro-sa-pamilyang pamamaraan, sa bawat serbisyong inaalok namin. Nauunawaan namin na maraming pamilyang naghahanap ng supervised visitation ay nakaranas na ng krisis, tunggalian, o malalaking pagbabago sa buhay. Dahil dito, gumagamit kami ng malinaw na patnubay, pare-parehong rutina, at kalmadong komunikasyon upang mabawasan ang stress at kalituhan sa panahon ng mga pagbisita.",
     "paragraph3": "Ang {name} ay umiiral upang ipaglaban ang mga pamilyang nangangailangan sa pamamagitan ng pag-aalok ng de-kalidad na serbisyo ng visitation at pagtulong sa kanila na maugnay sa karagdagang suporta ng komunidad kung angkop. Ang aming layunin ay tulungan ang mga pamilya na lumipat patungo sa katatagan at paggaling, isang pagbisita sa isang pagkakataon, upang maranasan ng mga bata ang isang \"bagong araw\" ng pag-asa, kaligtasan, at koneksyon sa mga taong pinakamahalaga sa kanila.",
     "credentialsLabel": "Mga Kredensyal",
     "credentialsList": [
-      "Propesyonal na Medicaid Provider",
       "Mahigit 10 taong pinagsamang karanasan sa larangan ng kalusugang pangkaisipan",
       "Trauma-informed at sensitibo sa kultura na pagsasanay",
       "May karanasan sa mga korte, DCF, at pribadong kaso ng custody"
@@ -225,7 +223,7 @@
     "metaDescription": "Suportahan ang Family Visitation Sponsorship Fund at tulungan ang mga pamilya sa Northeast Florida na ma-access ang mga serbisyo ng supervised visitation na hindi nila kayang bayaran nang sarili.",
     "heroLabel": "Family Visitation Sponsorship Fund",
     "heroTitle": "Tulungan ang isang pamilya na magkaroon ng kanilang bagong araw",
-    "intro": "Ang {name} ay isang propesyonal na Medicaid Provider at for-profit na LLC — hindi ito isang rehistradong 501(c)(3) na nonprofit. Ang mga kontribusyon sa Family Visitation Sponsorship Fund ay sumusuporta sa aming misyon sa komunidad na gawing accessible ang mga serbisyo ng supervised visitation at monitored exchange para sa mga kwalipikadong pamilyang hindi kayang bayaran ang buong halaga. Ang mga kontribusyong ito ay <strong>hindi tax-deductible</strong>.",
+    "intro": "Ang {name} ay isang for-profit na LLC — hindi ito isang rehistradong 501(c)(3) na nonprofit. Ang mga kontribusyon sa Family Visitation Sponsorship Fund ay sumusuporta sa aming misyon sa komunidad na gawing accessible ang mga serbisyo ng supervised visitation at monitored exchange para sa mga kwalipikadong pamilyang hindi kayang bayaran ang buong halaga. Ang mga kontribusyong ito ay <strong>hindi tax-deductible</strong>.",
     "supportsTitle": "Ang sinusuportahan ng inyong kontribusyon",
     "impactTiers": [
       {

@@ -1,7 +1,7 @@
 # A New Day Family Services LLC — Website
 
-A marketing site for **A New Day Family Services LLC**, a professional Medicaid Provider
-offering supervised visitation, monitored child exchanges, and therapeutic trauma-informed
+A marketing site for **A New Day Family Services LLC**, a professional supervised visitation
+provider offering supervised visitation, monitored child exchanges, and therapeutic trauma-informed
 visitation services across Northeast Florida (Duval, Clay, St. Johns, Nassau, and Baker
 counties).
 
@@ -24,9 +24,9 @@ counties).
 - Auto-generated `sitemap.xml` and `robots.txt` — `src/app/sitemap.ts`, `src/app/robots.ts`
 - Keyword targeting based on competitor research (Toby Center, Angels Monitoring, JFCS
   Jacksonville, Family Ties) — terms like "supervised visitation Jacksonville FL,"
-  "court-ordered visitation Northeast Florida," "monitored child exchange Duval County," and
-  "Medicaid-approved supervised visitation" are woven into headings, metadata, and FAQ copy for
-  both traditional SEO and AI answer engines (AEO).
+  "court-ordered visitation Northeast Florida," and "monitored child exchange Duval County" are
+  woven into headings, metadata, and FAQ copy for both traditional SEO and AI answer engines
+  (AEO).
 
 ## Languages
 

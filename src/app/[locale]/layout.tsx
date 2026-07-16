@@ -40,7 +40,6 @@ export async function generateMetadata({
       "court ordered visitation Duval County",
       "DCF supervised visitation provider",
       "therapeutic visitation Florida",
-      "Medicaid supervised visitation provider",
     ],
     alternates: {
       canonical: locale === routing.defaultLocale ? "/" : `/${locale}`,

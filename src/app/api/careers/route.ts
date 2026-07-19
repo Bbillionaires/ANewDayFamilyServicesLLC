@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { Resend } from "resend";
+import nodemailer from "nodemailer";
 import { siteConfig } from "@/lib/siteConfig";
 
 export const runtime = "nodejs";
@@ -51,18 +51,22 @@ export async function POST(req: NextRequest) {
     };
   }
 
-  const apiKey = process.env.RESEND_API_KEY;
+  const gmailUser = process.env.GMAIL_USER;
+  const gmailAppPassword = process.env.GMAIL_APP_PASSWORD;
   const to = process.env.CAREERS_NOTIFICATION_EMAIL || siteConfig.email;
-  const from = process.env.CAREERS_FROM_EMAIL || "careers@anewdayfamilyservices.com";
 
-  if (!apiKey) {
+  if (!gmailUser || !gmailAppPassword) {
     return NextResponse.json({ status: "not_configured" });
   }
 
   try {
-    const resend = new Resend(apiKey);
-    const { error } = await resend.emails.send({
-      from: `${siteConfig.shortName} Careers <${from}>`,
+    const transporter = nodemailer.createTransport({
+      service: "gmail",
+      auth: { user: gmailUser, pass: gmailAppPassword },
+    });
+
+    await transporter.sendMail({
+      from: `${siteConfig.shortName} Careers <${gmailUser}>`,
       to,
       replyTo: email,
       subject: `New career application: ${name}${position ? ` — ${position}` : ""}`,
@@ -75,13 +79,10 @@ export async function POST(req: NextRequest) {
         "Message:",
         message,
       ].join("\n"),
-      attachments: resumeAttachment ? [resumeAttachment] : undefined,
+      attachments: resumeAttachment
+        ? [{ filename: resumeAttachment.filename, content: resumeAttachment.content }]
+        : undefined,
     });
-
-    if (error) {
-      console.error("Careers email send error:", error);
-      return NextResponse.json({ error: "send_failed" }, { status: 502 });
-    }
 
     return NextResponse.json({ status: "sent" });
   } catch (error) {

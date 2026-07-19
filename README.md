@@ -60,13 +60,10 @@ before the key is configured.
   hardcoded as the default in `src/lib/siteConfig.ts`. Override with `NEXT_PUBLIC_CONTACT_PHONE` /
   `NEXT_PUBLIC_CONTACT_EMAIL` only if a specific deployment needs different values.
 - `ANTHROPIC_API_KEY` — required for the live AI assistant
-- `GMAIL_USER` / `GMAIL_APP_PASSWORD` — required for the Careers page application form to
-  actually send email. `GMAIL_USER` is the Google Workspace mailbox address that sends the
-  notification (e.g. `Info@anewdayfamilyservices.com`); `GMAIL_APP_PASSWORD` is a 16-character
-  [App Password](https://myaccount.google.com/apppasswords) for that account (requires
-  2-Step Verification to be turned on first — regular account passwords won't work here).
-  Applications go to `CAREERS_NOTIFICATION_EMAIL`, which defaults to the site's main contact
-  email.
+- `RESEND_API_KEY` — required for the Careers page application form to actually send email.
+  You'll also need to verify a sending domain in Resend and set `CAREERS_FROM_EMAIL` to an
+  address on that domain (Resend rejects unverified senders). Applications go to
+  `CAREERS_NOTIFICATION_EMAIL`, which defaults to the site's main contact email.
 - `SQUARE_ACCESS_TOKEN` / `SQUARE_LOCATION_ID` — the Donate page's Square button is disabled
   until real Square checkout is wired up
 - Add a real `og-image` and favicon to `public/` (see `src/app/layout.tsx` for where to
@@ -78,12 +75,10 @@ before the key is configured.
 `src/components/CareerApplicationForm.tsx`, which posts to `/api/careers`
 (`src/app/api/careers/route.ts`). The route validates the submission server-side, then emails
 the applicant's name, contact info, position of interest, message, and resume (as an attachment,
-PDF/Word, 5MB max) directly through Gmail/Google Workspace SMTP (via
-[nodemailer](https://nodemailer.com)) — with the applicant's address set as `replyTo`, so
-replying to the notification email goes straight to them. **Without `GMAIL_USER` and
-`GMAIL_APP_PASSWORD` set, it tells applicants to email their resume directly instead of
-erroring** — same fallback pattern as the AI assistant, safe to deploy before the credentials
-are configured.
+PDF/Word, 5MB max) via [Resend](https://resend.com) — with the applicant's address set as
+`replyTo`, so replying to the notification email goes straight to them. **Without
+`RESEND_API_KEY` set, it tells applicants to email their resume directly instead of erroring** —
+same fallback pattern as the AI assistant, safe to deploy before the key is configured.
 
 ## Known item: Next.js version
 

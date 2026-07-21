@@ -27,26 +27,6 @@
   "LanguageSwitcher": {
     "label": "Idioma"
   },
-  "Chat": {
-    "title": "Pregúntanos lo que sea",
-    "subtitle": "A New Day Family Services",
-    "closeLabel": "Cerrar chat",
-    "openLabel": "Pregúntanos lo que sea",
-    "closeButtonLabel": "Cerrar",
-    "placeholder": "Escribe tu pregunta…",
-    "send": "Enviar",
-    "typing": "Escribiendo…",
-    "greeting": "Hola, soy el asistente de A New Day Family Services. Pregúntame sobre la visitación supervisada, los intercambios monitoreados, nuestra área de servicio o cómo comenzar.",
-    "connectionError": "Estoy teniendo problemas para conectarme en este momento. Inténtalo de nuevo en breve, o comunícate usando la información de contacto en el pie de página.",
-    "notConfigured": "El asistente de IA en vivo aún no está configurado en este sitio (falta ANTHROPIC_API_KEY). Mientras tanto, consulta las páginas de Servicios, Sobre Nosotros, o Recursos Comunitarios, o comunícate usando la información de contacto en el pie de página.",
-    "answerError": "Tuve un problema al responder eso. Inténtalo de nuevo, o comunícate usando la información de contacto en el pie de página.",
-    "starterPrompts": [
-      "¿Qué es la visitación supervisada?",
-      "¿Qué áreas atienden?",
-      "¿Cómo empiezo?",
-      "¿Cómo funciona el fondo de patrocinio?"
-    ]
-  },
   "CoreValues": {
     "sectionLabel": "Valores Fundamentales",
     "items": [

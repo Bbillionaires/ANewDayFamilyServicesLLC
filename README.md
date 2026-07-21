@@ -43,15 +43,6 @@ auto-translation occurs. The AI chat assistant also replies in whichever languag
 To add a new page, add its keys to all three message files (`node` can diff key sets — see the
 validation snippet in git history) and add the locale to `src/i18n/routing.ts`.
 
-## AI assistant
-
-A floating "Ask Us Anything" chat widget (`src/components/ChatWidget.tsx`) calls `/api/chat`
-(`src/app/api/chat/route.ts`), which is powered by the Claude API and grounded in the site's own
-mission, services, and FAQ content (`src/lib/chatContext.ts`). The assistant is instructed to
-stay neutral, avoid legal advice, and never discuss a specific family's case. **Without
-`ANTHROPIC_API_KEY` set, it falls back to a static message instead of erroring** — safe to deploy
-before the key is configured.
-
 ## Before launch — replace these placeholders
 
 - `NEXT_PUBLIC_SITE_URL` — currently a placeholder domain; set to the real production domain
@@ -59,7 +50,6 @@ before the key is configured.
 - Real contact info — phone `(904) 270-9463` and email `Info@anewdayfamilyservices.com` — is
   hardcoded as the default in `src/lib/siteConfig.ts`. Override with `NEXT_PUBLIC_CONTACT_PHONE` /
   `NEXT_PUBLIC_CONTACT_EMAIL` only if a specific deployment needs different values.
-- `ANTHROPIC_API_KEY` — required for the live AI assistant
 - `RESEND_API_KEY` — required for the Careers page application form to actually send email.
   You'll also need to verify a sending domain in Resend and set `CAREERS_FROM_EMAIL` to an
   address on that domain (Resend rejects unverified senders). Applications go to
@@ -78,7 +68,7 @@ the applicant's name, contact info, position of interest, message, and resume (a
 PDF/Word, 5MB max) via [Resend](https://resend.com) — with the applicant's address set as
 `replyTo`, so replying to the notification email goes straight to them. **Without
 `RESEND_API_KEY` set, it tells applicants to email their resume directly instead of erroring** —
-same fallback pattern as the AI assistant, safe to deploy before the key is configured.
+safe to deploy before the key is configured.
 
 ## Known item: Next.js version
 
@@ -98,7 +88,7 @@ Next.js 14 (App Router) + TypeScript + Tailwind CSS, deployable to Vercel or any
 
 ```bash
 npm install
-cp .env.example .env.local   # fill in real contact info, ANTHROPIC_API_KEY, Square keys
+cp .env.example .env.local   # fill in real contact info, RESEND_API_KEY, Square keys
 npm run dev
 ```
 

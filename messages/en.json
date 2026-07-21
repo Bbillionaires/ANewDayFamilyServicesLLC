@@ -27,26 +27,6 @@
   "LanguageSwitcher": {
     "label": "Language"
   },
-  "Chat": {
-    "title": "Ask Us Anything",
-    "subtitle": "A New Day Family Services",
-    "closeLabel": "Close chat",
-    "openLabel": "Ask Us Anything",
-    "closeButtonLabel": "Close",
-    "placeholder": "Type your question…",
-    "send": "Send",
-    "typing": "Typing…",
-    "greeting": "Hi, I'm the A New Day Family Services assistant. Ask me about supervised visitation, monitored exchanges, our service area, or how to get started.",
-    "connectionError": "I'm having trouble connecting right now. Please try again shortly, or reach out using the contact information in the footer.",
-    "notConfigured": "The live AI assistant isn't configured yet on this deployment (missing ANTHROPIC_API_KEY). In the meantime, check the Services, About, or Community Resources pages, or reach out using the contact info in the footer.",
-    "answerError": "I ran into an error answering that. Please try again, or reach out using the contact info in the footer.",
-    "starterPrompts": [
-      "What is supervised visitation?",
-      "What areas do you serve?",
-      "How do I get started?",
-      "How does the sponsorship fund work?"
-    ]
-  },
   "CoreValues": {
     "sectionLabel": "Core Values",
     "items": [

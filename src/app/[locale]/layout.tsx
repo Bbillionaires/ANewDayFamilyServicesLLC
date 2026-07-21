@@ -5,7 +5,6 @@ import { notFound } from "next/navigation";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import ChatWidget from "@/components/ChatWidget";
 import { siteConfig } from "@/lib/siteConfig";
 import { organizationJsonLd } from "@/lib/structuredData";
 import { routing } from "@/i18n/routing";
@@ -89,7 +88,6 @@ export default async function RootLayout({
           <Navbar />
           <main>{children}</main>
           <Footer />
-          <ChatWidget locale={locale} />
         </NextIntlClientProvider>
       </body>
     </html>

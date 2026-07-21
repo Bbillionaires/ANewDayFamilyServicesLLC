@@ -27,26 +27,6 @@
   "LanguageSwitcher": {
     "label": "Wika"
   },
-  "Chat": {
-    "title": "Magtanong Ka Sa Amin",
-    "subtitle": "A New Day Family Services",
-    "closeLabel": "Isara ang chat",
-    "openLabel": "Magtanong Ka Sa Amin",
-    "closeButtonLabel": "Isara",
-    "placeholder": "I-type ang iyong tanong…",
-    "send": "Ipadala",
-    "typing": "Nagta-type…",
-    "greeting": "Kumusta, ako ang assistant ng A New Day Family Services. Magtanong ka tungkol sa supervised visitation, monitored exchanges, ang aming saklaw ng serbisyo, o kung paano magsimula.",
-    "connectionError": "May problema kami sa koneksyon ngayon. Pakisubukang muli sa ilang sandali, o makipag-ugnayan gamit ang impormasyon sa contact sa footer.",
-    "notConfigured": "Hindi pa naka-configure ang live na AI assistant sa site na ito (kulang ang ANTHROPIC_API_KEY). Samantala, tingnan ang mga pahina ng Mga Serbisyo, Tungkol sa Amin, o Mga Mapagkukunan ng Komunidad, o makipag-ugnayan gamit ang impormasyon sa contact sa footer.",
-    "answerError": "May naganap na error sa pagsagot niyan. Pakisubukang muli, o makipag-ugnayan gamit ang impormasyon sa contact sa footer.",
-    "starterPrompts": [
-      "Ano ang supervised visitation?",
-      "Anong mga lugar ang inyong sinasaklaw?",
-      "Paano ako magsisimula?",
-      "Paano gumagana ang sponsorship fund?"
-    ]
-  },
   "CoreValues": {
     "sectionLabel": "Mga Pangunahing Halaga",
     "items": [

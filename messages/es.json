@@ -7,7 +7,8 @@
     "careers": "Empleo",
     "donate": "Donar",
     "openMenu": "Abrir menú",
-    "closeMenu": "Cerrar menú"
+    "closeMenu": "Cerrar menú",
+    "booking": "Reservas"
   },
   "Footer": {
     "tagline": "Un nuevo día seguro y neutral para cada familia en el noreste de Florida.",
@@ -346,5 +347,20 @@
     "missingFieldsMessage": "Por favor complete su nombre, correo electrónico y un breve mensaje antes de enviar.",
     "resumeTooLargeMessage": "Ese archivo de currículum es demasiado grande — manténgalo por debajo de 5MB.",
     "resumeInvalidTypeMessage": "Por favor suba un documento PDF o Word para su currículum."
+  },
+  "BookingPage": {
+    "metaTitle": "Reserve una Cita o Realice un Pago",
+    "metaDescription": "Programe una cita de visitación supervisada a través de nuestra página de reservas de Google Calendar, o realice un pago en línea — dos pasos separados y sencillos.",
+    "heroLabel": "Reservas y Pagos",
+    "heroTitle": "Reserve una cita o realice un pago",
+    "heroBody": "Las reservas y los pagos se manejan por separado a continuación — no necesita pagar para reservar una cita.",
+    "bookingTitle": "Reserve una Cita",
+    "bookingBody": "Elija un horario disponible directamente en nuestro calendario. Las citas se confirman automáticamente, sin necesidad de esperar una llamada.",
+    "bookingButton": "Reservar una Cita",
+    "bookingNotConfiguredMessage": "La reserva en línea aún no está disponible. Llámenos o envíenos un correo electrónico para programar una cita.",
+    "paymentTitle": "Realice un Pago",
+    "paymentBody": "Pague los servicios de forma segura en línea. Esto es independiente de la reserva — puede programar su cita primero y pagar cuando le convenga.",
+    "paymentButton": "Realizar un Pago",
+    "paymentNotConfiguredMessage": "El pago en línea aún no está disponible. Llámenos o envíenos un correo electrónico para conocer las opciones de pago."
   }
 }

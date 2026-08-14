@@ -7,7 +7,8 @@
     "careers": "Careers",
     "donate": "Donate",
     "openMenu": "Open menu",
-    "closeMenu": "Close menu"
+    "closeMenu": "Close menu",
+    "booking": "Booking"
   },
   "Footer": {
     "tagline": "A safe, neutral new day for every family in Northeast Florida.",
@@ -346,5 +347,20 @@
     "missingFieldsMessage": "Please fill in your name, email, and a short message before submitting.",
     "resumeTooLargeMessage": "That resume file is too large — please keep it under 5MB.",
     "resumeInvalidTypeMessage": "Please upload a PDF or Word document for your resume."
+  },
+  "BookingPage": {
+    "metaTitle": "Book an Appointment or Make a Payment",
+    "metaDescription": "Schedule a supervised visitation appointment through our Google Calendar booking page, or make a payment online — two separate, simple steps.",
+    "heroLabel": "Booking & Payment",
+    "heroTitle": "Book an appointment or make a payment",
+    "heroBody": "Scheduling and payments are handled separately below — you don't need to pay in order to book an appointment.",
+    "bookingTitle": "Book an Appointment",
+    "bookingBody": "Choose an available time directly on our calendar. Appointments are confirmed automatically, so there's no need to wait for a callback.",
+    "bookingButton": "Book an Appointment",
+    "bookingNotConfiguredMessage": "Online booking isn't set up yet. Please call or email us to schedule an appointment.",
+    "paymentTitle": "Make a Payment",
+    "paymentBody": "Pay for services securely online. This is separate from booking — you can schedule your appointment first and pay whenever is convenient.",
+    "paymentButton": "Make a Payment",
+    "paymentNotConfiguredMessage": "Online payment isn't set up yet. Please call or email us for payment options."
   }
 }

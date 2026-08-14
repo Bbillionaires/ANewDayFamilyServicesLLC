@@ -8,7 +8,7 @@ function pathFor(locale: string, route: string) {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const routes = ["", "/services", "/about", "/community-resources", "/careers", "/donate"];
+  const routes = ["", "/services", "/about", "/community-resources", "/careers", "/booking", "/donate"];
 
   return routes.flatMap((route) =>
     routing.locales.map((locale) => ({

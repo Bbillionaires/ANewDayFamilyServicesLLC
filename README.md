@@ -12,6 +12,8 @@ counties).
 - `/about` — Mission, purpose, credentials, and the seven core values
 - `/careers` — Open positions pitch + an application form that emails the applicant's details
   (and resume, if attached) straight to the team
+- `/booking` — Two independent buttons: "Book an Appointment" (opens the owner's Google
+  Calendar Appointment Schedule page) and "Make a Payment" (opens the owner's payment link)
 - `/donate` — Family Visitation Sponsorship Fund (explicitly **not** tax-deductible — this is an
   LLC, not a 501(c)(3)) with a Square checkout placeholder
 - `/community-resources` — Curated, independently-verified directory of Northeast Florida
@@ -56,8 +58,26 @@ validation snippet in git history) and add the locale to `src/i18n/routing.ts`.
   `CAREERS_NOTIFICATION_EMAIL`, which defaults to the site's main contact email.
 - `SQUARE_ACCESS_TOKEN` / `SQUARE_LOCATION_ID` — the Donate page's Square button is disabled
   until real Square checkout is wired up
+- `NEXT_PUBLIC_GOOGLE_CALENDAR_BOOKING_URL` / `NEXT_PUBLIC_PAYMENT_LINK_URL` — the Booking
+  page's two buttons are shown disabled until these are set (see "Booking & payment" below)
 - Add a real `og-image` and favicon to `public/` (see `src/app/layout.tsx` for where to
   reference them)
+
+## Booking & payment
+
+`/booking` (`src/app/[locale]/booking/page.tsx`) is intentionally simple: two independent
+buttons, no custom scheduling or payment logic on this site at all.
+
+- **Book an Appointment** links out to `NEXT_PUBLIC_GOOGLE_CALENDAR_BOOKING_URL` — the
+  business's own [Google Calendar Appointment Schedule](https://support.google.com/calendar/answer/10729749)
+  page. The owner manages availability, blocks off time off/vacations, and receives bookings
+  entirely within their own Google Calendar; this site never talks to the Google Calendar API.
+- **Make a Payment** links out to `NEXT_PUBLIC_PAYMENT_LINK_URL` — the business's existing
+  payment page or payment link (e.g. a Square payment link). Deliberately independent of
+  booking: a customer does not need to pay in order to book an appointment.
+- Both open in a new tab. **Without either env var set, its button is shown disabled** with a
+  "call or email us" fallback message — same pattern as the rest of the site's optional
+  integrations.
 
 ## Careers application form
 

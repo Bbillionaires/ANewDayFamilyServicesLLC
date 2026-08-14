@@ -7,7 +7,8 @@
     "careers": "Mga Trabaho",
     "donate": "Mag-donate",
     "openMenu": "Buksan ang menu",
-    "closeMenu": "Isara ang menu"
+    "closeMenu": "Isara ang menu",
+    "booking": "Pag-book"
   },
   "Footer": {
     "tagline": "Isang ligtas at neutral na bagong araw para sa bawat pamilya sa Northeast Florida.",
@@ -346,5 +347,20 @@
     "missingFieldsMessage": "Mangyaring punan ang iyong pangalan, email, at maikling mensahe bago isumite.",
     "resumeTooLargeMessage": "Masyadong malaki ang resume file na iyon — panatilihin itong mas mababa sa 5MB.",
     "resumeInvalidTypeMessage": "Mangyaring mag-upload ng PDF o Word document para sa iyong resume."
+  },
+  "BookingPage": {
+    "metaTitle": "Mag-book ng Appointment o Magbayad",
+    "metaDescription": "Mag-iskedyul ng appointment para sa supervised visitation sa pamamagitan ng aming Google Calendar booking page, o magbayad online — dalawang hiwalay at simpleng hakbang.",
+    "heroLabel": "Pag-book at Pagbabayad",
+    "heroTitle": "Mag-book ng appointment o magbayad",
+    "heroBody": "Hiwalay na pinangangasiwaan ang pag-book at pagbabayad sa ibaba — hindi kailangang magbayad muna para makapag-book ng appointment.",
+    "bookingTitle": "Mag-book ng Appointment",
+    "bookingBody": "Pumili ng available na oras direkta sa aming kalendaryo. Awtomatikong nakukumpirma ang mga appointment, kaya hindi na kailangang maghintay ng tawag pabalik.",
+    "bookingButton": "Mag-book ng Appointment",
+    "bookingNotConfiguredMessage": "Hindi pa available ang online booking. Mangyaring tumawag o mag-email sa amin para mag-iskedyul ng appointment.",
+    "paymentTitle": "Magbayad",
+    "paymentBody": "Ligtas na magbayad para sa mga serbisyo online. Hiwalay ito sa pag-book — maaari mo munang i-iskedyul ang iyong appointment at magbayad kung kailan mo gusto.",
+    "paymentButton": "Magbayad",
+    "paymentNotConfiguredMessage": "Hindi pa available ang online na pagbabayad. Mangyaring tumawag o mag-email sa amin para sa mga opsyon sa pagbabayad."
   }
 }

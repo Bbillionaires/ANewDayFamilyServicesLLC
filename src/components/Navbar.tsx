@@ -16,6 +16,7 @@ export default function Navbar() {
     { href: "/about", label: t("about") },
     { href: "/community-resources", label: t("communityResources") },
     { href: "/careers", label: t("careers") },
+    { href: "/booking", label: t("booking") },
     { href: "/donate", label: t("donate") },
   ];
 
@@ -27,7 +28,7 @@ export default function Navbar() {
         </Link>
 
         <div className="hidden items-center gap-6 md:flex">
-          {links.slice(0, 5).map((link) => (
+          {links.slice(0, 6).map((link) => (
             <Link
               key={link.href}
               href={link.href}

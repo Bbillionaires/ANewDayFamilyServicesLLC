@@ -8,7 +8,8 @@ export const siteConfig = {
   phone: process.env.NEXT_PUBLIC_CONTACT_PHONE || "(904) 270-9463",
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "Info@anewdayfamilyservices.com",
   addressLocality: "Jacksonville, FL",
-  googleCalendarBookingUrl: process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_BOOKING_URL || "",
+  googleCalendarBookingUrl:
+    process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_BOOKING_URL || "https://calendar.app.google/LuKjCdVpMXP3iW288",
   paymentLinkUrl: process.env.NEXT_PUBLIC_PAYMENT_LINK_URL || "",
   developerCredit: {
     name: "De'Aris Henry",

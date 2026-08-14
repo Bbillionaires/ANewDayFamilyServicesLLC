@@ -22,7 +22,7 @@ export const coreValues = [
   {
     name: "Neutrality",
     description:
-      "We provide supervised visitation that is fair and unbiased to every parent, caregiver, and agency, focusing on the child's best interest above all else.",
+      "We provide supervised visitation that is unbiased toward every parent, caregiver, and agency — ensuring no parent has power over the other when it comes to the child's safety and wellbeing.",
   },
   {
     name: "Safety",
